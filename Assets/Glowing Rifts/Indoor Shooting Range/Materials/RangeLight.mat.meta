@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: fd0baf2ed03af5c46976f14b4ebc49d0
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 282281
+  packageName: Indoor Shooting Range
+  packageVersion: 1.0
+  assetPath: Assets/Glowing Rifts/Indoor Shooting Range/Materials/RangeLight.mat
+  uploadId: 755740

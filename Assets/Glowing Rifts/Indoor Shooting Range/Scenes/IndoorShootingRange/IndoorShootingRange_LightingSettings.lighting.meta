@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 95ece061722aa0b448ee0cdd74cfbb4d
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 4890085278179872738
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 282281
+  packageName: Indoor Shooting Range
+  packageVersion: 1.0
+  assetPath: Assets/Glowing Rifts/Indoor Shooting Range/Scenes/IndoorShootingRange/IndoorShootingRange_LightingSettings.lighting
+  uploadId: 755740

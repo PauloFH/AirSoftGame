@@ -4,7 +4,7 @@ using UnityEngine;
 public class ArmaAirsoft : MonoBehaviour
 {
     [Header("Configurações da Arma")]
-    public string modeloArma = "M4A1";
+    public string modeloArma = "Rifle";
     public TipoCarregador tipoCarregador = TipoCarregador.Rifle;
     
     [Header("Disparo")]
@@ -27,6 +27,34 @@ public class ArmaAirsoft : MonoBehaviour
     [Header("Hop-up")]
     public float hopUpValue = 0.3f;
     
+    [Header("Sistema de Áudio")]
+    public AudioSource audioSource;
+    public AudioClip somDisparo;
+    public AudioClip somCarregadorVazio;
+    public AudioClip somRetirarCarregador;
+    public AudioClip somInserirCarregador;
+    public AudioClip somArmar;
+    public AudioClip somModoDisparo;
+    
+    [Range(0f, 1f)]
+    public float volumeDisparo = 0.8f;
+    [Range(0f, 1f)]
+    public float volumeRecarga = 0.6f;
+    [Range(0f, 1f)]
+    public float volumeVazio = 0.5f;
+    
+    void Start()
+    {
+        if (audioSource == null)
+        {
+            audioSource = gameObject.AddComponent<AudioSource>();
+            audioSource.playOnAwake = false;
+            audioSource.spatialBlend = 1f;
+            audioSource.minDistance = 5f;
+            audioSource.maxDistance = 50f;
+        }
+    }
+    
     void Update()
     {
         float scroll = Input.GetAxis("Mouse ScrollWheel");
@@ -40,6 +68,7 @@ public class ArmaAirsoft : MonoBehaviour
         {
             fullAuto = !fullAuto;
             Debug.Log($"Full-Auto: {(fullAuto ? "ATIVADO" : "DESATIVADO")}");
+            TocarSom(somModoDisparo, volumeRecarga);
         }
         
         if (!estaRecarregando)
@@ -69,7 +98,7 @@ public class ArmaAirsoft : MonoBehaviour
         if (carregadorAtual == null || carregadorAtual.quantidadeAtual <= 0)
         {
             Debug.Log("Sem munição! Aperte R para recarregar.");
-            // TODO: Som de "click" vazio aqui
+            TocarSom(somCarregadorVazio, volumeVazio);
             return;
         }
 
@@ -89,7 +118,7 @@ public class ArmaAirsoft : MonoBehaviour
 
         carregadorAtual.quantidadeAtual--;
         
-        // TODO: Som de disparo aqui
+        TocarSom(somDisparo, volumeDisparo);
     }
     
     void IniciarRecarga()
@@ -109,6 +138,7 @@ public class ArmaAirsoft : MonoBehaviour
         if (municaoReserva <= 0)
         {
             Debug.Log("Sem munição reserva!");
+            TocarSom(somCarregadorVazio, volumeVazio);
             return;
         }
         
@@ -120,9 +150,17 @@ public class ArmaAirsoft : MonoBehaviour
         estaRecarregando = true;
         Debug.Log("Recarregando...");
         
-        // TODO: Som de recarga inicial aqui (tirar carregador)
-
-        yield return new WaitForSeconds(tempoRecarga);
+        TocarSom(somRetirarCarregador, volumeRecarga);
+        
+        yield return new WaitForSeconds(tempoRecarga * 0.4f);
+        
+        TocarSom(somInserirCarregador, volumeRecarga);
+        
+        yield return new WaitForSeconds(tempoRecarga * 0.4f);
+        
+        TocarSom(somArmar, volumeRecarga);
+        
+        yield return new WaitForSeconds(tempoRecarga * 0.2f);
         
         int bbsFaltando = carregadorAtual.capacidade - carregadorAtual.quantidadeAtual;
         int bbsParaAdicionar = Mathf.Min(bbsFaltando, municaoReserva);
@@ -132,10 +170,21 @@ public class ArmaAirsoft : MonoBehaviour
         estaRecarregando = false;
         
         Debug.Log($"Recarga completa! Carregador: {carregadorAtual.quantidadeAtual}/{carregadorAtual.capacidade} | Reserva: {municaoReserva}");
-        
-        // TODO: Som de recarga final aqui (inserir carregador)
     }
     
+    void TocarSom(AudioClip clip, float volume)
+    {
+        if (clip != null && audioSource != null)
+        {
+            audioSource.PlayOneShot(clip, volume);
+        }
+    }
+    public void EquiparNovoCarregador(Carregador novoCarregador, TipoCarregador novoTipo)
+    {
+        carregadorAtual = novoCarregador;
+        tipoCarregador = novoTipo;
+        Debug.Log($"Novo carregador equipado: {novoTipo} - {novoCarregador.capacidade} BBs de {novoCarregador.massaBB * 1000}g");
+    }
     public bool EstaRecarregando()
     {
         return estaRecarregando;
@@ -145,6 +194,7 @@ public class ArmaAirsoft : MonoBehaviour
     {
         return municaoReserva;
     }
+    
 }
 
 public enum TipoCarregador

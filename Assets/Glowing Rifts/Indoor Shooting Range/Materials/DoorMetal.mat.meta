@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 42e00cf93cc37ec478a22dedc68cf0af
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 282281
+  packageName: Indoor Shooting Range
+  packageVersion: 1.0
+  assetPath: Assets/Glowing Rifts/Indoor Shooting Range/Materials/DoorMetal.mat
+  uploadId: 755740

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 9f257b865983c2742baea556c9363d9f
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 282281
+  packageName: Indoor Shooting Range
+  packageVersion: 1.0
+  assetPath: Assets/Glowing Rifts/Indoor Shooting Range/Materials/BarrierPrimary.mat
+  uploadId: 755740
