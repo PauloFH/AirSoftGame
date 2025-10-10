@@ -6,24 +6,29 @@ public class CarregadorPickup : MonoBehaviour
     public TipoCarregador tipo;
     public int capacidade = 30;
     public float massaBB = 0.0002f; // 0.2g
-    
-    [Header("Visual")]
+[Header("Visual")]
     public float velocidadeRotacao = 50f;
     public float amplitudeFlutuar = 0.3f;
     public float velocidadeFlutuar = 2f;
     
     [Header("Interação")]
     public float raioDeteccao = 3f;
+    public float cooldownPegar = 3f; 
     public LayerMask playerLayer;
     
     private Vector3 posicaoInicial;
-    private bool foiPego = false;
     private Transform playerProximo = null;
+    private float proximoTempoDisponivel = 0f;
+    private bool podeInteragir = true;
     
+    [Header("Feedback Visual")]
+    public Material materialDisponivel;
+    public Material materialCooldown;
+    private Renderer meshRenderer;
     void Start()
     {
         posicaoInicial = transform.position;
-        
+        meshRenderer = GetComponentInChildren<Renderer>();
         SphereCollider trigger = GetComponent<SphereCollider>();
         if (trigger == null)
         {
@@ -35,10 +40,12 @@ public class CarregadorPickup : MonoBehaviour
     
     void Update()
     {
-        if (!foiPego)
+        AnimarCarregador();
+        if (meshRenderer != null)
         {
-            AnimarCarregador();
+            meshRenderer.material = podeInteragir ? materialDisponivel : materialCooldown;
         }
+        
     }
     
     void AnimarCarregador()
@@ -51,7 +58,7 @@ public class CarregadorPickup : MonoBehaviour
     
     void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Player") && !foiPego)
+        if (other.CompareTag("Player") && podeInteragir)
         {
             playerProximo = other.transform;
             ArmaAirsoft arma = other.GetComponentInChildren<ArmaAirsoft>();
@@ -79,7 +86,6 @@ public class CarregadorPickup : MonoBehaviour
     
     void TentarPegarCarregador(ArmaAirsoft arma)
     {
-
         if (arma.tipoCarregador == tipo)
         {
             RecarregarAutomatico(arma);
@@ -92,22 +98,16 @@ public class CarregadorPickup : MonoBehaviour
     
     void RecarregarAutomatico(ArmaAirsoft arma)
     {
-        if (arma.carregadorAtual != null && arma.carregadorAtual.quantidadeAtual < arma.carregadorAtual.capacidade)
-        {
-            int bbsFaltando = arma.carregadorAtual.capacidade - arma.carregadorAtual.quantidadeAtual;
-            int bbsNovo = Mathf.Min(capacidade, bbsFaltando);
-            
-            arma.carregadorAtual.quantidadeAtual += bbsNovo;
-            capacidade -= bbsNovo;
-            
-            Debug.Log($"Carregador recarregado! +{bbsNovo} BBs");
-            
-            if (capacidade <= 0)
-            {
-                foiPego = true;
-                Destroy(gameObject, 0.5f);
-            }
-        }
+        
+        int municaoRecebida = 100;
+        arma.municaoReserva += municaoRecebida;
+        
+        Debug.Log($"Munição recarregada! +{municaoRecebida} BBs na reserva. Total: {arma.municaoReserva}");
+        
+        podeInteragir = false;
+        proximoTempoDisponivel = Time.time + cooldownPegar;
+        
+        StartCoroutine(EfeitoRecarregar());
     }
     
     void MostrarPromptTroca(ArmaAirsoft arma)
@@ -125,19 +125,57 @@ public class CarregadorPickup : MonoBehaviour
     
     public void TrocarCarregador(ArmaAirsoft arma)
     {
-        Carregador novoCarregador = new Carregador(tipo, capacidade, massaBB);
+        int capacidadeNova = ObterCapacidadePorTipo(tipo);
+        Carregador novoCarregador = new Carregador(tipo, capacidadeNova, massaBB);
+        
         arma.carregadorAtual = novoCarregador;
         arma.tipoCarregador = tipo;
+        arma.TrocarMeshArma(tipo);
+        arma.municaoReserva = 100;
+        Debug.Log($"Carregador trocado! Novo tipo: {tipo}, Massa: {massaBB * 1000}g, Reserva: {arma.municaoReserva}");
+        podeInteragir = false;
+        proximoTempoDisponivel = Time.time + cooldownPegar;
+    
+        StartCoroutine(EfeitoRecarregar());
+    }
+
+    int ObterCapacidadePorTipo(TipoCarregador tipo)
+    {
+        switch (tipo)
+        {
+            case TipoCarregador.Pistola1911:
+                return 7;
+            case TipoCarregador.PistolaGlock:
+                return 17;
+            case TipoCarregador.Rifle:
+                return 30;
+            case TipoCarregador.Shotgun:
+                return 6;
+            default:
+                return 30;
+        }
+    }
+    
+    System.Collections.IEnumerator EfeitoRecarregar()
+    {
+        Vector3 escalaOriginal = transform.localScale;
+        float duracao = 0.3f;
+        float tempo = 0f;
         
-        Debug.Log($"Carregador trocado! Novo tipo: {tipo}, Massa: {massaBB * 1000}g");
+        while (tempo < duracao)
+        {
+            tempo += Time.deltaTime;
+            float fator = 1f + Mathf.Sin(tempo / duracao * Mathf.PI) * 0.2f;
+            transform.localScale = escalaOriginal * fator;
+            yield return null;
+        }
         
-        foiPego = true;
-        Destroy(gameObject);
+        transform.localScale = escalaOriginal;
     }
     
     void OnDrawGizmosSelected()
     {
-        Gizmos.color = Color.yellow;
+        Gizmos.color = podeInteragir ? Color.yellow : Color.red;
         Gizmos.DrawWireSphere(transform.position, raioDeteccao);
     }
 }

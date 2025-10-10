@@ -36,6 +36,20 @@ public class ArmaAirsoft : MonoBehaviour
     public AudioClip somArmar;
     public AudioClip somModoDisparo;
     
+    [Header("Modelos 3D das Armas")]
+    public GameObject meshPistola1911;
+    public GameObject meshPistolaGlock;
+    public GameObject meshRifle;
+    public GameObject meshShotgun;
+
+    [Header("Boca do Cano de Cada Arma")]
+    public Transform bocaCanoPistola1911;
+    public Transform bocaCanoPistolaGlock;
+    public Transform bocaCanoRifle;
+    public Transform bocaCanoShotgun;
+
+    private GameObject meshAtual;
+
     [Range(0f, 1f)]
     public float volumeDisparo = 0.8f;
     [Range(0f, 1f)]
@@ -53,6 +67,15 @@ public class ArmaAirsoft : MonoBehaviour
             audioSource.minDistance = 5f;
             audioSource.maxDistance = 50f;
         }
+        
+
+        if (meshPistola1911 != null) meshPistola1911.SetActive(false);
+        if (meshPistolaGlock != null) meshPistolaGlock.SetActive(false);
+        if (meshRifle != null) meshRifle.SetActive(false);
+        if (meshShotgun != null) meshShotgun.SetActive(false);
+        
+  
+        TrocarMeshArma(tipoCarregador);
     }
     
     void Update()
@@ -179,12 +202,14 @@ public class ArmaAirsoft : MonoBehaviour
             audioSource.PlayOneShot(clip, volume);
         }
     }
+    
     public void EquiparNovoCarregador(Carregador novoCarregador, TipoCarregador novoTipo)
     {
         carregadorAtual = novoCarregador;
         tipoCarregador = novoTipo;
         Debug.Log($"Novo carregador equipado: {novoTipo} - {novoCarregador.capacidade} BBs de {novoCarregador.massaBB * 1000}g");
     }
+    
     public bool EstaRecarregando()
     {
         return estaRecarregando;
@@ -193,6 +218,53 @@ public class ArmaAirsoft : MonoBehaviour
     public int GetMunicaoReserva()
     {
         return municaoReserva;
+    }
+    
+    public void TrocarMeshArma(TipoCarregador novoTipo)
+    {
+        if (meshAtual != null)
+        {
+            meshAtual.SetActive(false);
+        }
+        
+        switch (novoTipo)
+        {
+            case TipoCarregador.Pistola1911:
+                meshAtual = meshPistola1911;
+                bocaDoCano = bocaCanoPistola1911;
+                break;
+            case TipoCarregador.PistolaGlock:
+                meshAtual = meshPistolaGlock;
+                bocaDoCano = bocaCanoPistolaGlock;
+                break;
+            case TipoCarregador.Rifle:
+                meshAtual = meshRifle;
+                bocaDoCano = bocaCanoRifle;
+                break;
+            case TipoCarregador.Shotgun:
+                meshAtual = meshShotgun;
+                bocaDoCano = bocaCanoShotgun;
+                break;
+        }
+    
+        if (meshAtual != null)
+        {
+            meshAtual.SetActive(true);
+            Debug.Log($"Mesh da arma trocado para: {novoTipo}");
+        }
+        else
+        {
+            Debug.LogWarning($"Mesh para {novoTipo} não está configurado!");
+        }
+        
+        if (bocaDoCano == null)
+        {
+            Debug.LogError($"⚠️ ATENÇÃO: Boca do cano para {novoTipo} não está configurada!");
+        }
+        else
+        {
+            Debug.Log($"✓ Boca do cano atualizada para: {bocaDoCano.name}");
+        }
     }
     
 }

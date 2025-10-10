@@ -24,12 +24,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 357645041200568246}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.139, z: 0.5675}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.13899998, z: 0.56750005}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 218465217838595005}
+  m_Father: {fileID: 3790145371476908226}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1634005148411857315
 GameObject:
@@ -191,7 +191,6 @@ Transform:
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 3790145371476908226}
-  - {fileID: 1769590989586836580}
   - {fileID: 3725296153105626720}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -230,6 +229,14 @@ MonoBehaviour:
   somInserirCarregador: {fileID: 8300000, guid: d85099fefd84d429788e09001413207b, type: 3}
   somArmar: {fileID: 8300000, guid: 68f790dbfa1f84670a70b81bd91a98e1, type: 3}
   somModoDisparo: {fileID: 8300000, guid: 68f790dbfa1f84670a70b81bd91a98e1, type: 3}
+  meshPistola1911: {fileID: 0}
+  meshPistolaGlock: {fileID: 0}
+  meshRifle: {fileID: 0}
+  meshShotgun: {fileID: 0}
+  bocaCanoPistola1911: {fileID: 0}
+  bocaCanoPistolaGlock: {fileID: 0}
+  bocaCanoRifle: {fileID: 0}
+  bocaCanoShotgun: {fileID: 0}
   volumeDisparo: 0.8
   volumeRecarga: 0.6
   volumeVazio: 0.5
@@ -287,7 +294,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: d4d1648e434d9d748b771e7bd7118517, type: 3}
+      insertIndex: 1
+      addedObject: {fileID: 1769590989586836580}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d4d1648e434d9d748b771e7bd7118517, type: 3}
 --- !u!4 &3790145371476908226 stripped
