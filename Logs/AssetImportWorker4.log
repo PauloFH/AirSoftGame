@@ -1,0 +1,1627 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.2/respin/6000.2.7f1-2eb0c79396db' branch; Version is '6000.2.7f2 (2b518236b676) revision 2838914'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-paulorh" at "2025-10-10T20:26:27.4729572Z"
+OS: 'Windows 11  (10.0.26100) 64bit Professional' Language: 'pt' Physical Memory: 31879 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+Date: 2025-10-10T20:26:27Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.2.7f2\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+C:/unity/projects/AirSoftGame
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+54915
+-licensingIpc
+LicenseClient-paulorh
+-job-worker-count
+11
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: C:/unity/projects/AirSoftGame
+C:/unity/projects/AirSoftGame
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [17288]  Target information:
+
+Player connection [17288]  * "[IP] 192.168.0.7 [Port] 0 [Flags] 2 [Guid] 2261015175 [EditorId] 2261015175 [Version] 1048832 [Id] WindowsEditor(7,paulo-pc) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [17288]  * "[IP] 172.19.0.1 [Port] 0 [Flags] 2 [Guid] 2261015175 [EditorId] 2261015175 [Version] 1048832 [Id] WindowsEditor(7,paulo-pc) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [17288] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [17288] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 11
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 7628, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.3+a4e98f1
+  Session Id:              2d2d3e4a7a7049cba6a986d805bb5525
+  Correlation Id:          c9165121116ba2ce1702f118a6e0fcfd
+  External correlation Id: 5230294895437702330
+  Machine Id:              6sp8raTFMxvUwLzOQlZIojDac2U=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-paulorh" (connect: 0.00s, validation: 0.00s, handshake: 0.03s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-paulorh-notifications" at "2025-10-10T20:26:27.5003775Z"
+[Licensing::Module] Licensing Background thread has ended after 0.03s
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 3.81 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.2.7f2 (2b518236b676)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.2.7f2/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/unity/projects/AirSoftGame/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 5060 Ti (ID=0x2d04)
+    Vendor:   NVIDIA
+    VRAM:     15962 MB
+    Driver:   32.0.15.8129
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.2.7f2/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.2.7f2/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.2.7f2/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56600
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.7f2/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.7f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 4673188508070-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.7f2/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.7f2/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Registered in 0.003197 seconds.
+- Loaded All Assemblies, in  0.249 seconds
+Native extension for LinuxStandalone target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.237 seconds
+Domain Reload Profiling: 484ms
+	BeginReloadAssembly (77ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (107ms)
+		LoadAssemblies (75ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (104ms)
+			TypeCache.Refresh (103ms)
+				TypeCache.ScanAssembly (95ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (238ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (208ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (37ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (51ms)
+			ProcessInitializeOnLoadAttributes (84ms)
+			ProcessInitializeOnLoadMethodAttributes (33ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  0.560 seconds
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 0.99 ms, found 4 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-AirSoftGame
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.793 seconds
+Domain Reload Profiling: 1350ms
+	BeginReloadAssembly (112ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (23ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (387ms)
+		LoadAssemblies (277ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (169ms)
+			TypeCache.Refresh (119ms)
+				TypeCache.ScanAssembly (109ms)
+			BuildScriptInfoCaches (38ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (794ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (652ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (122ms)
+			ProcessInitializeOnLoadAttributes (487ms)
+			ProcessInitializeOnLoadMethodAttributes (32ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 1.04 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7497 unused Assets / (7.2 MB). Loaded Objects now: 8268.
+Memory consumption went from 154.0 MB to 146.8 MB.
+Total: 7.301900 ms (FindLiveObjects: 0.689700 ms CreateObjectMapping: 0.253800 ms MarkObjects: 3.820600 ms  DeleteObjects: 2.537200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 4492.919193 seconds.
+  path: Assets/Nokobot/Modern Guns - Handgun/Meshes/Materials/LowPoly_colt45_tesselted_Colt45_Black_AlbedoTransparency.mat
+  artifactKey: Guid(596ba929da8a88c499b3e2e3d1b3d27a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nokobot/Modern Guns - Handgun/Meshes/Materials/LowPoly_colt45_tesselted_Colt45_Black_AlbedoTransparency.mat using Guid(596ba929da8a88c499b3e2e3d1b3d27a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5e3b1148f77c2c0efdad99d2ea9c598b') in 1.6142666 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.871399 seconds.
+  path: Assets/Nokobot/Modern Guns - Handgun/Meshes/Materials/LowPoly_colt45_tesselted_Colt45_Black_AlbedoTransparency.mat
+  artifactKey: Guid(596ba929da8a88c499b3e2e3d1b3d27a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Nokobot/Modern Guns - Handgun/Meshes/Materials/LowPoly_colt45_tesselted_Colt45_Black_AlbedoTransparency.mat using Guid(596ba929da8a88c499b3e2e3d1b3d27a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '70f5c4e276e1dc14f6ec80fec91a74e3') in 0.1150669 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.441252 seconds.
+  path: Assets/Nokobot/Modern Guns - Handgun/Materials/M1911 Handgun_Black.mat
+  artifactKey: Guid(ef4deb7b6cac3794694ab402e74b3e7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nokobot/Modern Guns - Handgun/Materials/M1911 Handgun_Black.mat using Guid(ef4deb7b6cac3794694ab402e74b3e7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '85e0e7f3c39a7dd29b1bbcfd073d3001') in 0.0167877 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.642332 seconds.
+  path: Assets/Nokobot/Modern Guns - Handgun/Meshes/M1911 Handgun.fbx
+  artifactKey: Guid(3d87184bf4725b841b26693d2234fffd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nokobot/Modern Guns - Handgun/Meshes/M1911 Handgun.fbx using Guid(3d87184bf4725b841b26693d2234fffd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b1f81ee3e85e59fc418bf90338cdd359') in 0.0553088 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 30
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.634356 seconds.
+  path: Assets/Nokobot/Modern Guns - Handgun/Meshes/Materials/LowPoly_colt45_tesselted_Colt45_Black_AlbedoTransparency.mat
+  artifactKey: Guid(596ba929da8a88c499b3e2e3d1b3d27a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nokobot/Modern Guns - Handgun/Meshes/Materials/LowPoly_colt45_tesselted_Colt45_Black_AlbedoTransparency.mat using Guid(596ba929da8a88c499b3e2e3d1b3d27a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '56a606d7fd8e13b1342d8bef0f3d798e') in 0.0084748 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.464717 seconds.
+  path: Assets/Nokobot/Modern Guns - Handgun/Meshes/Materials/LowPoly_colt45_tesselted_Colt45_Black_AlbedoTransparency.mat
+  artifactKey: Guid(596ba929da8a88c499b3e2e3d1b3d27a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nokobot/Modern Guns - Handgun/Meshes/Materials/LowPoly_colt45_tesselted_Colt45_Black_AlbedoTransparency.mat using Guid(596ba929da8a88c499b3e2e3d1b3d27a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '678ea1d49bb9030f1c21075723631dbf') in 1.2453984 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.821480 seconds.
+  path: Assets/Nokobot/Modern Guns - Handgun/Meshes/Materials/LowPoly_colt45_tesselted_Colt45_Black_AlbedoTransparency 1.mat
+  artifactKey: Guid(dc445cf0045d66647a3909b924029fa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nokobot/Modern Guns - Handgun/Meshes/Materials/LowPoly_colt45_tesselted_Colt45_Black_AlbedoTransparency 1.mat using Guid(dc445cf0045d66647a3909b924029fa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9ad2704a5f60d6e0249deed4955d8690') in 0.016154 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.933344 seconds.
+  path: Assets/Nokobot/Modern Guns - Handgun/Meshes/Materials/LowPoly_colt45_tesselted_Colt45_Black_AlbedoTransparency 1.mat
+  artifactKey: Guid(dc445cf0045d66647a3909b924029fa2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Nokobot/Modern Guns - Handgun/Meshes/Materials/LowPoly_colt45_tesselted_Colt45_Black_AlbedoTransparency 1.mat using Guid(dc445cf0045d66647a3909b924029fa2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4de76527a442170422f064ae081e6117') in 0.0080002 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.923551 seconds.
+  path: Assets/Scenes/IndoorShootingRange.unity
+  artifactKey: Guid(1e7f36b97dc5bad419d0dff62d4ce7c3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/IndoorShootingRange.unity using Guid(1e7f36b97dc5bad419d0dff62d4ce7c3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '313996e120c0bbaed8b44696533d69f8') in 0.0069081 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.128315 seconds.
+  path: Assets/Nokobot/Modern Guns - Handgun/Meshes/M1911 Handgun.fbx
+  artifactKey: Guid(3d87184bf4725b841b26693d2234fffd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nokobot/Modern Guns - Handgun/Meshes/M1911 Handgun.fbx using Guid(3d87184bf4725b841b26693d2234fffd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4da354d386a61572030d0debccb14a7e') in 0.0408311 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 31
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.093129 seconds.
+  path: Assets/TextMesh Pro
+  artifactKey: Guid(f54d1bd14bd3ca042bd867b519fee8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro using Guid(f54d1bd14bd3ca042bd867b519fee8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '441aa3e92cda27c68af8a1706ee847ab') in 0.0006352 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.843502 seconds.
+  path: Assets/FPS Menu Music Themes Vol. 1
+  artifactKey: Guid(a759f6c4769c2c7458ff0cb29ef6ef29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS Menu Music Themes Vol. 1 using Guid(a759f6c4769c2c7458ff0cb29ef6ef29) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fd962995663c5a5ade48eebf85ec36ec') in 0.000582 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.809978 seconds.
+  path: Assets/Low Poly Guns/Models/Guns/shotgun1/Materials/shotgun1.mat
+  artifactKey: Guid(0c24ff3f078566f4d9d83ee8bd6a3f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Guns/Models/Guns/shotgun1/Materials/shotgun1.mat using Guid(0c24ff3f078566f4d9d83ee8bd6a3f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd89c65339fe7cd553b4fecb493b6bf2c') in 0.0138179 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.774133 seconds.
+  path: Assets/Low Poly Guns/Models/Guns/shotgun1/Materials/shotgun1 1.mat
+  artifactKey: Guid(363ffa39544c0514b88c657250458276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Guns/Models/Guns/shotgun1/Materials/shotgun1 1.mat using Guid(363ffa39544c0514b88c657250458276) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '72f09df587e97eb66a8d8bfe23edf537') in 0.0123541 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.930748 seconds.
+  path: Assets/Low Poly Guns/Models/Guns/shotgun1/Materials/shotgun1 1.mat
+  artifactKey: Guid(363ffa39544c0514b88c657250458276) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Low Poly Guns/Models/Guns/shotgun1/Materials/shotgun1 1.mat using Guid(363ffa39544c0514b88c657250458276) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd8478c9c25db5e3fc737dcdb0d44bd70') in 0.0068711 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.525660 seconds.
+  path: Assets/Low Poly Guns/Models/Guns/shotgun1/Materials/shotgun1 1.mat
+  artifactKey: Guid(363ffa39544c0514b88c657250458276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Guns/Models/Guns/shotgun1/Materials/shotgun1 1.mat using Guid(363ffa39544c0514b88c657250458276) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f92fb9f6974e2a9940e0e018287b931d') in 0.0104544 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.938353 seconds.
+  path: Assets/Low Poly Guns/Models/Guns/shotgun1/Materials/shotgun1 1.mat
+  artifactKey: Guid(363ffa39544c0514b88c657250458276) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Low Poly Guns/Models/Guns/shotgun1/Materials/shotgun1 1.mat using Guid(363ffa39544c0514b88c657250458276) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '50b40d667afe110cf7168256cc9e22a0') in 0.0068346 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.615113 seconds.
+  path: Assets/Scenes/IndoorShootingRange.unity
+  artifactKey: Guid(1e7f36b97dc5bad419d0dff62d4ce7c3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/IndoorShootingRange.unity using Guid(1e7f36b97dc5bad419d0dff62d4ce7c3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c05ba6536dc8bc95005f922858db835a') in 0.0078161 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.473581 seconds.
+  path: Assets/Low Poly Guns/Models/Guns/pistol3/Materials/pistol3 1.mat
+  artifactKey: Guid(f52b6a8227589ad4fb14557916f69968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Guns/Models/Guns/pistol3/Materials/pistol3 1.mat using Guid(f52b6a8227589ad4fb14557916f69968) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '196c48b655dd3bad9ebabb6f458e341b') in 0.0125297 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.928081 seconds.
+  path: Assets/Low Poly Guns/Models/Guns/pistol3/Materials/pistol3 1.mat
+  artifactKey: Guid(f52b6a8227589ad4fb14557916f69968) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Low Poly Guns/Models/Guns/pistol3/Materials/pistol3 1.mat using Guid(f52b6a8227589ad4fb14557916f69968) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f0a0721034c5d9d6f38cbbaf1e20dbe7') in 0.0101626 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.890723 seconds.
+  path: Assets/Low Poly Guns/Models/Guns/pistol3/Materials/pistol3 1.mat
+  artifactKey: Guid(f52b6a8227589ad4fb14557916f69968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Guns/Models/Guns/pistol3/Materials/pistol3 1.mat using Guid(f52b6a8227589ad4fb14557916f69968) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9a4e5238ac62ff5113f67e18f24361b0') in 0.0111114 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.946417 seconds.
+  path: Assets/Low Poly Guns/Models/Guns/pistol3/Materials/pistol3 1.mat
+  artifactKey: Guid(f52b6a8227589ad4fb14557916f69968) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Low Poly Guns/Models/Guns/pistol3/Materials/pistol3 1.mat using Guid(f52b6a8227589ad4fb14557916f69968) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '624839d90edd97a07a2b5a7af0369ad0') in 0.0082066 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.546203 seconds.
+  path: Assets/Low Poly Guns/Models/Guns/pistol3/Materials/pistol3 1.mat
+  artifactKey: Guid(f52b6a8227589ad4fb14557916f69968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Guns/Models/Guns/pistol3/Materials/pistol3 1.mat using Guid(f52b6a8227589ad4fb14557916f69968) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '374665a14363cf2102e18c4cca66bb7a') in 0.0119114 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.944704 seconds.
+  path: Assets/Low Poly Guns/Models/Guns/pistol3/Materials/pistol3 1.mat
+  artifactKey: Guid(f52b6a8227589ad4fb14557916f69968) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Low Poly Guns/Models/Guns/pistol3/Materials/pistol3 1.mat using Guid(f52b6a8227589ad4fb14557916f69968) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4fdacb4e54fc4fe153a65d0bc4837d2c') in 0.0107641 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.516372 seconds.
+  path: Assets/Scenes/IndoorShootingRange.unity
+  artifactKey: Guid(1e7f36b97dc5bad419d0dff62d4ce7c3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/IndoorShootingRange.unity using Guid(1e7f36b97dc5bad419d0dff62d4ce7c3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4065526ad08f40416e16034a25d46679') in 0.0125543 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Prepare
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  0.583 seconds
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 0.95 ms, found 4 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.827 seconds
+Domain Reload Profiling: 1411ms
+	BeginReloadAssembly (194ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (16ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (72ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (339ms)
+		LoadAssemblies (272ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (128ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (111ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (828ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (711ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (124ms)
+			ProcessInitializeOnLoadAttributes (544ms)
+			ProcessInitializeOnLoadMethodAttributes (34ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 1.04 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7496 unused Assets / (7.4 MB). Loaded Objects now: 8354.
+Memory consumption went from 175.9 MB to 168.5 MB.
+Total: 9.748400 ms (FindLiveObjects: 0.743100 ms CreateObjectMapping: 0.622200 ms MarkObjects: 4.859500 ms  DeleteObjects: 3.522800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 193.266730 seconds.
+  path: Assets/Glowing Rifts/Shooting Target/Models
+  artifactKey: Guid(d9a5fe4ae0ab98c4da26acdbf80dd507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Glowing Rifts/Shooting Target/Models using Guid(d9a5fe4ae0ab98c4da26acdbf80dd507) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '15751da6e1012265309bfeb66756cbbd') in 0.0095192 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015037 seconds.
+  path: Assets/Glowing Rifts/Shooting Target/Models/ShootingTarget.fbx
+  artifactKey: Guid(b4028d0446dc940488be74e5bafe577c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Glowing Rifts/Shooting Target/Models/ShootingTarget.fbx using Guid(b4028d0446dc940488be74e5bafe577c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a00d7fbf7aea762cdfc86a1e7f40d673') in 0.3209174 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.853097 seconds.
+  path: Assets/Glowing Rifts/Shooting Target/Materials
+  artifactKey: Guid(f70d731de35d9a84e89998b6a7786189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Glowing Rifts/Shooting Target/Materials using Guid(f70d731de35d9a84e89998b6a7786189) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7ff244b877a7e7c9cdcfb74fbddc0534') in 0.0005325 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 1.70 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7486 unused Assets / (7.2 MB). Loaded Objects now: 8498.
+Memory consumption went from 180.9 MB to 173.7 MB.
+Total: 13.753100 ms (FindLiveObjects: 1.047300 ms CreateObjectMapping: 1.111000 ms MarkObjects: 8.020800 ms  DeleteObjects: 3.573000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  0.739 seconds
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 1.43 ms, found 4 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.997 seconds
+Domain Reload Profiling: 1734ms
+	BeginReloadAssembly (212ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (18ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (58ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (446ms)
+		LoadAssemblies (364ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (164ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (137ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (997ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (862ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (169ms)
+			ProcessInitializeOnLoadAttributes (634ms)
+			ProcessInitializeOnLoadMethodAttributes (45ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 1.39 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7495 unused Assets / (7.4 MB). Loaded Objects now: 8378.
+Memory consumption went from 175.9 MB to 168.5 MB.
+Total: 10.029700 ms (FindLiveObjects: 1.045900 ms CreateObjectMapping: 1.016500 ms MarkObjects: 4.926100 ms  DeleteObjects: 3.040600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.710 seconds
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 1.32 ms, found 4 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Error loading file Library/StateCache/LayerSettings/9e/9ecc5c3c162a7aba29bafa64c8b94b7c.json. Error: System.IO.IOException: Sharing violation on path C:\unity\projects\AirSoftGame\Library\StateCache\LayerSettings\9e\9ecc5c3c162a7aba29bafa64c8b94b7c.json
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <59bd7c40c082431db25e1e728ab62789>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <59bd7c40c082431db25e1e728ab62789>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize) [0x00055] in <59bd7c40c082431db25e1e728ab62789>:0 
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks) [0x00000] in <59bd7c40c082431db25e1e728ab62789>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamReader..ctor(string,System.Text.Encoding,bool)
+  at System.IO.File.InternalReadAllText (System.String path, System.Text.Encoding encoding) [0x00000] in <59bd7c40c082431db25e1e728ab62789>:0 
+  at System.IO.File.ReadAllText (System.String path, System.Text.Encoding encoding) [0x00034] in <59bd7c40c082431db25e1e728ab62789>:0 
+  at UnityEditor.StateCache`1[T].GetState (UnityEngine.Hash128 key, T defaultValue) [0x00041] in <0f0e3f0466c5408ea28e69768919d41d>:0 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.StateCache`1<UnityEditor.Tools/LayerSettings>:GetState (UnityEngine.Hash128,UnityEditor.Tools/LayerSettings)
+UnityEditor.Tools:OnEnable ()
+UnityEngine.ScriptableObject:CreateScriptableObjectInstanceFromType (System.Type,bool)
+UnityEngine.ScriptableObject:CreateInstance (System.Type)
+UnityEngine.ScriptableObject:CreateInstance<UnityEditor.Tools> ()
+UnityEditor.Tools:get_get ()
+UnityEditor.Tools:get_visibleLayers ()
+UnityEditor.Animations.Rigging.BoneRendererUtils:.cctor () (at ./Library/PackageCache/com.unity.animation.rigging@e106d1f78228/Editor/Utils/BoneRendererUtils.cs:121)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: ./Library/PackageCache/com.unity.animation.rigging@e106d1f78228/Editor/Utils/BoneRendererUtils.cs Line: 121)
+
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.826 seconds
+Domain Reload Profiling: 1536ms
+	BeginReloadAssembly (192ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (53ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (451ms)
+		LoadAssemblies (360ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (168ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (144ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (826ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (698ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (147ms)
+			ProcessInitializeOnLoadAttributes (500ms)
+			ProcessInitializeOnLoadMethodAttributes (40ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 1.34 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7495 unused Assets / (6.8 MB). Loaded Objects now: 8382.
+Memory consumption went from 175.9 MB to 169.1 MB.
+Total: 8.843100 ms (FindLiveObjects: 0.775400 ms CreateObjectMapping: 0.763700 ms MarkObjects: 4.726200 ms  DeleteObjects: 2.577200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 473.608059 seconds.
+  path: Assets/Scenes/IndoorShootingRange.unity
+  artifactKey: Guid(1e7f36b97dc5bad419d0dff62d4ce7c3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/IndoorShootingRange.unity using Guid(1e7f36b97dc5bad419d0dff62d4ce7c3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '026f0a7d0e1f3178b14668356ca9d3b0') in 0.1291741 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Prepare
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 1.23 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7486 unused Assets / (6.7 MB). Loaded Objects now: 8383.
+Memory consumption went from 176.1 MB to 169.4 MB.
+Total: 8.066400 ms (FindLiveObjects: 0.784900 ms CreateObjectMapping: 0.733300 ms MarkObjects: 4.175800 ms  DeleteObjects: 2.371900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.170138 seconds.
+  path: Assets/Scripts/AlvoAirsoft.cs
+  artifactKey: Guid(2238407bd6e22eb4ebf46560b7ca6fd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/AlvoAirsoft.cs using Guid(2238407bd6e22eb4ebf46560b7ca6fd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bfd9412ceeaba8b4e311ea5d1d206251') in 0.0078212 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.705483 seconds.
+  path: Assets/Scripts/AlvoAirsoft.cs
+  artifactKey: Guid(2238407bd6e22eb4ebf46560b7ca6fd7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/AlvoAirsoft.cs using Guid(2238407bd6e22eb4ebf46560b7ca6fd7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '79115ba2b63d401d9f4cc3e8aec27ff3') in 0.0151903 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  0.576 seconds
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 1.05 ms, found 4 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.757 seconds
+Domain Reload Profiling: 1334ms
+	BeginReloadAssembly (174ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (66ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (21ms)
+	LoadAllAssembliesAndSetupDomain (351ms)
+		LoadAssemblies (265ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (145ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (124ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (757ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (649ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (127ms)
+			ProcessInitializeOnLoadAttributes (481ms)
+			ProcessInitializeOnLoadMethodAttributes (32ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 1.49 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7496 unused Assets / (7.4 MB). Loaded Objects now: 8387.
+Memory consumption went from 175.9 MB to 168.5 MB.
+Total: 9.316900 ms (FindLiveObjects: 0.691200 ms CreateObjectMapping: 0.810800 ms MarkObjects: 4.706100 ms  DeleteObjects: 3.108200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 5.372648 seconds.
+  path: Assets/Scripts/AlvoAirsoft.cs
+  artifactKey: Guid(2238407bd6e22eb4ebf46560b7ca6fd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/AlvoAirsoft.cs using Guid(2238407bd6e22eb4ebf46560b7ca6fd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9fb1f0676ace050ab2cfb55f341ace3b') in 0.0078914 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 1.95 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7486 unused Assets / (6.6 MB). Loaded Objects now: 8387.
+Memory consumption went from 176.1 MB to 169.5 MB.
+Total: 12.552200 ms (FindLiveObjects: 1.201100 ms CreateObjectMapping: 1.151700 ms MarkObjects: 5.854300 ms  DeleteObjects: 4.344500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 11.617586 seconds.
+  path: Assets/Scripts/AlvoAirsoft.cs
+  artifactKey: Guid(2238407bd6e22eb4ebf46560b7ca6fd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/AlvoAirsoft.cs using Guid(2238407bd6e22eb4ebf46560b7ca6fd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0e409d69fcf8b884052d67e74b2490f8') in 0.0189114 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 3.29 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7486 unused Assets / (7.2 MB). Loaded Objects now: 8387.
+Memory consumption went from 176.1 MB to 168.9 MB.
+Total: 13.011200 ms (FindLiveObjects: 1.049400 ms CreateObjectMapping: 1.281900 ms MarkObjects: 6.134900 ms  DeleteObjects: 4.544400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 1.46 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7487 unused Assets / (6.9 MB). Loaded Objects now: 8388.
+Memory consumption went from 176.1 MB to 169.2 MB.
+Total: 10.700100 ms (FindLiveObjects: 1.142400 ms CreateObjectMapping: 1.030100 ms MarkObjects: 5.448200 ms  DeleteObjects: 3.078700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 30.382104 seconds.
+  path: Assets/Scripts/AlvoAirsoft.cs
+  artifactKey: Guid(2238407bd6e22eb4ebf46560b7ca6fd7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/AlvoAirsoft.cs using Guid(2238407bd6e22eb4ebf46560b7ca6fd7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '67ab2d960149b60d259628bc8e6a5916') in 0.1511109 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.838984 seconds.
+  path: Assets/Scripts/StandDeTiroManager.cs
+  artifactKey: Guid(0ed531ac9887c074484849d074d4476d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/StandDeTiroManager.cs using Guid(0ed531ac9887c074484849d074d4476d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '083091338f5ce4280268990339d1a89f') in 0.0037015 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 1.15 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7487 unused Assets / (6.9 MB). Loaded Objects now: 8388.
+Memory consumption went from 176.1 MB to 169.2 MB.
+Total: 8.630000 ms (FindLiveObjects: 0.725300 ms CreateObjectMapping: 0.331400 ms MarkObjects: 4.847500 ms  DeleteObjects: 2.724900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 9.352312 seconds.
+  path: Assets/Scripts/StandDeTiroManager.cs
+  artifactKey: Guid(0ed531ac9887c074484849d074d4476d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/StandDeTiroManager.cs using Guid(0ed531ac9887c074484849d074d4476d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f3b15ea33255e7d936a0e8d702a2abfd') in 0.0091802 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 1.15 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7488 unused Assets / (6.9 MB). Loaded Objects now: 8389.
+Memory consumption went from 176.1 MB to 169.2 MB.
+Total: 8.766100 ms (FindLiveObjects: 0.692800 ms CreateObjectMapping: 0.573100 ms MarkObjects: 4.682700 ms  DeleteObjects: 2.816900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 19.891860 seconds.
+  path: Assets/Scripts/TriggerStandDeTiro.cs
+  artifactKey: Guid(2655881f00d44a35b69321bf5c29aa08) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/TriggerStandDeTiro.cs using Guid(2655881f00d44a35b69321bf5c29aa08) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ffa0ce451efc5e61b2e7e8cedbc0fca4') in 0.0084914 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 1.84 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7488 unused Assets / (7.0 MB). Loaded Objects now: 8389.
+Memory consumption went from 176.1 MB to 169.1 MB.
+Total: 12.617300 ms (FindLiveObjects: 0.972500 ms CreateObjectMapping: 0.874700 ms MarkObjects: 7.224600 ms  DeleteObjects: 3.544700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 15.847238 seconds.
+  path: Assets/Scripts/TriggerStandDeTiro.cs
+  artifactKey: Guid(2655881f00d44a35b69321bf5c29aa08) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/TriggerStandDeTiro.cs using Guid(2655881f00d44a35b69321bf5c29aa08) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '86bdfcc7fe83201eac5d25c4498721ab') in 0.0124381 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 1.56 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7489 unused Assets / (6.7 MB). Loaded Objects now: 8390.
+Memory consumption went from 176.1 MB to 169.4 MB.
+Total: 10.257500 ms (FindLiveObjects: 0.825600 ms CreateObjectMapping: 0.643600 ms MarkObjects: 5.580700 ms  DeleteObjects: 3.207000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 12.407618 seconds.
+  path: Assets/Scripts/UIStandDeTiro.cs
+  artifactKey: Guid(393ae8d075af456abc5a55c190caa1af) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/UIStandDeTiro.cs using Guid(393ae8d075af456abc5a55c190caa1af) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '03688d6b7032798f688f1251b3a698e5') in 0.0105292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 1.61 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7489 unused Assets / (6.5 MB). Loaded Objects now: 8390.
+Memory consumption went from 176.1 MB to 169.6 MB.
+Total: 10.421700 ms (FindLiveObjects: 1.186000 ms CreateObjectMapping: 0.506200 ms MarkObjects: 5.427000 ms  DeleteObjects: 3.301400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 3.381750 seconds.
+  path: Assets/Scripts/UIStandDeTiro.cs
+  artifactKey: Guid(393ae8d075af456abc5a55c190caa1af) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/UIStandDeTiro.cs using Guid(393ae8d075af456abc5a55c190caa1af) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c82094019b8b43158a3a9f42e335525c') in 0.0118881 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 1.84 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7489 unused Assets / (6.9 MB). Loaded Objects now: 8390.
+Memory consumption went from 176.1 MB to 169.2 MB.
+Total: 12.587700 ms (FindLiveObjects: 0.760000 ms CreateObjectMapping: 0.749900 ms MarkObjects: 6.912500 ms  DeleteObjects: 4.164200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 8.713240 seconds.
+  path: Assets/Scripts/BB.cs
+  artifactKey: Guid(a9e2f3e0e24afd54fb1a916b942560f1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/BB.cs using Guid(a9e2f3e0e24afd54fb1a916b942560f1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '215a04611223fe63a9b3ee64de09007a') in 0.0129066 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 1.47 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7489 unused Assets / (7.3 MB). Loaded Objects now: 8390.
+Memory consumption went from 176.1 MB to 168.9 MB.
+Total: 12.541400 ms (FindLiveObjects: 1.130600 ms CreateObjectMapping: 1.060100 ms MarkObjects: 6.221200 ms  DeleteObjects: 4.128700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  0.745 seconds
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 1.38 ms, found 4 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Error saving file Library/StateCache/LayerSettings/9e/9ecc5c3c162a7aba29bafa64c8b94b7c.json. Error: System.IO.IOException: Sharing violation on path C:\unity\projects\AirSoftGame\Library\StateCache\LayerSettings\9e\9ecc5c3c162a7aba29bafa64c8b94b7c.json
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <59bd7c40c082431db25e1e728ab62789>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <59bd7c40c082431db25e1e728ab62789>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <59bd7c40c082431db25e1e728ab62789>:0 
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding) [0x00000] in <59bd7c40c082431db25e1e728ab62789>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string,bool,System.Text.Encoding)
+  at System.IO.File.WriteAllText (System.String path, System.String contents, System.Text.Encoding encoding) [0x00034] in <59bd7c40c082431db25e1e728ab62789>:0 
+  at UnityEditor.StateCache`1[T].SetState (UnityEngine.Hash128 key, T obj) [0x0004b] in <0f0e3f0466c5408ea28e69768919d41d>:0 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.StateCache`1<UnityEditor.Tools/LayerSettings>:SetState (UnityEngine.Hash128,UnityEditor.Tools/LayerSettings)
+UnityEditor.Tools:set_lockedLayers (int)
+UnityEditor.Tools:OnEnable ()
+UnityEngine.ScriptableObject:CreateScriptableObjectInstanceFromType (System.Type,bool)
+UnityEngine.ScriptableObject:CreateInstance (System.Type)
+UnityEngine.ScriptableObject:CreateInstance<UnityEditor.Tools> ()
+UnityEditor.Tools:get_get ()
+UnityEditor.Tools:get_visibleLayers ()
+UnityEditor.Animations.Rigging.BoneRendererUtils:.cctor () (at ./Library/PackageCache/com.unity.animation.rigging@e106d1f78228/Editor/Utils/BoneRendererUtils.cs:121)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: ./Library/PackageCache/com.unity.animation.rigging@e106d1f78228/Editor/Utils/BoneRendererUtils.cs Line: 121)
+
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.042 seconds
+Domain Reload Profiling: 1786ms
+	BeginReloadAssembly (216ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (73ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (459ms)
+		LoadAssemblies (362ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (178ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (159ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1042ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (904ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (194ms)
+			ProcessInitializeOnLoadAttributes (655ms)
+			ProcessInitializeOnLoadMethodAttributes (44ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (17ms)
+WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 1.18 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7499 unused Assets / (7.2 MB). Loaded Objects now: 8394.
+Memory consumption went from 176.0 MB to 168.8 MB.
+Total: 11.020500 ms (FindLiveObjects: 0.833700 ms CreateObjectMapping: 0.581400 ms MarkObjects: 6.118200 ms  DeleteObjects: 3.486400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 1.21 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7489 unused Assets / (7.1 MB). Loaded Objects now: 8394.
+Memory consumption went from 176.1 MB to 169.0 MB.
+Total: 13.105400 ms (FindLiveObjects: 0.910800 ms CreateObjectMapping: 1.443500 ms MarkObjects: 6.156400 ms  DeleteObjects: 4.593400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.692 seconds
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 1.89 ms, found 4 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.046 seconds
+Domain Reload Profiling: 1737ms
+	BeginReloadAssembly (190ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (50ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (443ms)
+		LoadAssemblies (348ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (174ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (150ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (1046ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (898ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (211ms)
+			ProcessInitializeOnLoadAttributes (632ms)
+			ProcessInitializeOnLoadMethodAttributes (40ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (18ms)
+WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 1.74 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7499 unused Assets / (7.3 MB). Loaded Objects now: 8398.
+Memory consumption went from 176.0 MB to 168.7 MB.
+Total: 9.797100 ms (FindLiveObjects: 0.893100 ms CreateObjectMapping: 0.672700 ms MarkObjects: 4.847200 ms  DeleteObjects: 3.383000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 282.696751 seconds.
+  path: Assets/Glowing Rifts/Indoor Shooting Range/Models/IndoorShootingRange.fbx
+  artifactKey: Guid(fba89255f860f7842a97bada97b32344) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Glowing Rifts/Indoor Shooting Range/Models/IndoorShootingRange.fbx using Guid(fba89255f860f7842a97bada97b32344) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9c08dbd9b282580c962d4901d91932cc') in 0.6518966 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 841
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.203278 seconds.
+  path: Assets/Glowing Rifts/Indoor Shooting Range/IndoorShootingRange.prefab
+  artifactKey: Guid(c39a3daf60fb2bc4390d45e6222b7b68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Glowing Rifts/Indoor Shooting Range/IndoorShootingRange.prefab using Guid(c39a3daf60fb2bc4390d45e6222b7b68) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fe8369d5030460409d148e6bd16dba71') in 0.0603796 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1577
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.283904 seconds.
+  path: Assets/Glowing Rifts/Indoor Shooting Range/Models
+  artifactKey: Guid(c670d9d6b468bb4458b51cea7d32f418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Glowing Rifts/Indoor Shooting Range/Models using Guid(c670d9d6b468bb4458b51cea7d32f418) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bff17ad06f50de615ef43ef040ac9ffb') in 0.0012362 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.012967 seconds.
+  path: Assets/Glowing Rifts/Indoor Shooting Range/Materials
+  artifactKey: Guid(b692834c1fec0f1449a390795aa59a3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Glowing Rifts/Indoor Shooting Range/Materials using Guid(b692834c1fec0f1449a390795aa59a3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4933503f1cb7d8eddb7238d83e65b34b') in 0.0006483 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  0.578 seconds
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 0.96 ms, found 4 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.852 seconds
+Domain Reload Profiling: 1431ms
+	BeginReloadAssembly (179ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (15ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (60ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (20ms)
+	LoadAllAssembliesAndSetupDomain (348ms)
+		LoadAssemblies (273ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (135ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (118ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (852ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (733ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (132ms)
+			ProcessInitializeOnLoadAttributes (550ms)
+			ProcessInitializeOnLoadMethodAttributes (41ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (17ms)
+WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 1.07 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7500 unused Assets / (6.9 MB). Loaded Objects now: 8423.
+Memory consumption went from 176.9 MB to 169.9 MB.
+Total: 9.022100 ms (FindLiveObjects: 0.829400 ms CreateObjectMapping: 0.784700 ms MarkObjects: 4.644400 ms  DeleteObjects: 2.762900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  0.706 seconds
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 1.59 ms, found 4 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.932 seconds
+Domain Reload Profiling: 1636ms
+	BeginReloadAssembly (202ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (58ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (435ms)
+		LoadAssemblies (378ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (141ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (124ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (932ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (790ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (197ms)
+			ProcessInitializeOnLoadAttributes (543ms)
+			ProcessInitializeOnLoadMethodAttributes (38ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (17ms)
+WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 1.06 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7499 unused Assets / (7.4 MB). Loaded Objects now: 8427.
+Memory consumption went from 176.8 MB to 169.4 MB.
+Total: 9.920000 ms (FindLiveObjects: 0.738200 ms CreateObjectMapping: 0.750200 ms MarkObjects: 4.803900 ms  DeleteObjects: 3.626900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  0.545 seconds
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 1.07 ms, found 4 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.838 seconds
+Domain Reload Profiling: 1384ms
+	BeginReloadAssembly (151ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (43ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (20ms)
+	LoadAllAssembliesAndSetupDomain (343ms)
+		LoadAssemblies (266ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (136ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (119ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (838ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (709ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (122ms)
+			ProcessInitializeOnLoadAttributes (539ms)
+			ProcessInitializeOnLoadMethodAttributes (38ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (17ms)
+WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 1.40 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7499 unused Assets / (7.2 MB). Loaded Objects now: 8431.
+Memory consumption went from 176.8 MB to 169.6 MB.
+Total: 10.560000 ms (FindLiveObjects: 0.828700 ms CreateObjectMapping: 0.740300 ms MarkObjects: 5.493600 ms  DeleteObjects: 3.496700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.555 seconds
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 0.96 ms, found 4 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.853 seconds
+Domain Reload Profiling: 1407ms
+	BeginReloadAssembly (148ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (43ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (20ms)
+	LoadAllAssembliesAndSetupDomain (353ms)
+		LoadAssemblies (271ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (139ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (123ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (854ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (733ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (139ms)
+			ProcessInitializeOnLoadAttributes (548ms)
+			ProcessInitializeOnLoadMethodAttributes (36ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (18ms)
+WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 1.26 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7499 unused Assets / (7.2 MB). Loaded Objects now: 8435.
+Memory consumption went from 176.8 MB to 169.7 MB.
+Total: 10.519400 ms (FindLiveObjects: 0.776500 ms CreateObjectMapping: 0.998900 ms MarkObjects: 5.510500 ms  DeleteObjects: 3.232700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 1738.033889 seconds.
+  path: Assets/Scripts/FPSController.cs
+  artifactKey: Guid(585f3ad949fd17b40a70db32e9d5aa5c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/FPSController.cs using Guid(585f3ad949fd17b40a70db32e9d5aa5c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '933f9602927fee625094f14adff0e91b') in 0.1768244 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Scenes/IndoorShootingRange.unity
+  artifactKey: Guid(1e7f36b97dc5bad419d0dff62d4ce7c3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/IndoorShootingRange.unity using Guid(1e7f36b97dc5bad419d0dff62d4ce7c3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2e1079f54a639ea0f832b934b9aa4716') in 0.0212923 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+

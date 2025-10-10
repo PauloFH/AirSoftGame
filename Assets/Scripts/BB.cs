@@ -48,7 +48,7 @@ public class BB : MonoBehaviour
     void AplicarEfeituMagnus()
     {
         float velocidade = rb.linearVelocity.magnitude;
-    
+        
         if (velocidade > 0.1f && backspinDrag > 0.01f)
         {
             float escalaRealista = backspinDrag * 0.00009f;
@@ -56,11 +56,11 @@ public class BB : MonoBehaviour
             rb.AddForce(Vector3.up * forcaMagnus, ForceMode.Force);
         }
     }
-
+    
     IEnumerator DestruirSeCaindo()
     {
         Vector3 posicaoInicial = transform.position;
-    
+        
         while (true)
         {
             float distancia = Vector3.Distance(posicaoInicial, transform.position);
@@ -70,12 +70,19 @@ public class BB : MonoBehaviour
                 Destroy(gameObject);
                 yield break;
             }
-        
+            
             yield return new WaitForSeconds(0.5f);
         }
     }
+    
     void OnCollisionEnter(Collision collision)
     {
+        AlvoAirsoft alvo = collision.gameObject.GetComponent<AlvoAirsoft>();
+        if (alvo != null)
+        {
+            alvo.RegistrarAcerto();
+        }
+        
         rb.linearVelocity = Vector3.zero;
         rb.isKinematic = true;
         Destroy(gameObject, 2f);

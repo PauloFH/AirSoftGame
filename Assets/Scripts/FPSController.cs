@@ -19,11 +19,13 @@ public class FPSController : MonoBehaviour
     private Vector3 velocidade;
     private float rotacaoX = 0f;
     
+   
+    private bool movimentoTravado = false;
+    
     void Start()
     {
         controller = GetComponent<CharacterController>();
         
-
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
         
@@ -35,8 +37,12 @@ public class FPSController : MonoBehaviour
     
     void Update()
     {
-        Movimentar();
         OlharComMouse();
+        
+        if (!movimentoTravado)
+        {
+            Movimentar();
+        }
         
         // ESC para destravar cursor (debug)
         if (Input.GetKeyDown(KeyCode.Escape))
@@ -54,20 +60,21 @@ public class FPSController : MonoBehaviour
         {
             velocidade.y = -2f;
         }
-
+        
         float moveX = Input.GetAxis("Horizontal");
         float moveZ = Input.GetAxis("Vertical");
         
         Vector3 direcao = transform.right * moveX + transform.forward * moveZ;
         
         float velocidadeAtual = Input.GetKey(KeyCode.LeftShift) ? velocidadeCorrida : velocidadeCaminhada;
-
+        
         controller.Move(direcao * velocidadeAtual * Time.deltaTime);
         
         if (Input.GetButtonDown("Jump") && estaNoChao)
         {
             velocidade.y = Mathf.Sqrt(forcaPulo * -2f * gravidade);
         }
+        
         velocidade.y += gravidade * Time.deltaTime;
         controller.Move(velocidade * Time.deltaTime);
     }
@@ -82,5 +89,11 @@ public class FPSController : MonoBehaviour
         rotacaoX -= mouseY;
         rotacaoX = Mathf.Clamp(rotacaoX, limiteVerticalMin, limiteVerticalMax);
         cameraTransform.localRotation = Quaternion.Euler(rotacaoX, 0f, 0f);
+    }
+
+    public void TravarMovimento(bool travar)
+    {
+        movimentoTravado = travar;
+        Debug.Log($"Movimento {(travar ? "TRAVADO" : "DESTRAVADO")}");
     }
 }

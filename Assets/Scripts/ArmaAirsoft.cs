@@ -56,7 +56,9 @@ public class ArmaAirsoft : MonoBehaviour
     public float volumeRecarga = 0.6f;
     [Range(0f, 1f)]
     public float volumeVazio = 0.5f;
+    private bool podeAtirar = true;
     
+
     void Start()
     {
         if (audioSource == null)
@@ -118,6 +120,10 @@ public class ArmaAirsoft : MonoBehaviour
     
     void Disparar()
     {
+        if (!podeAtirar)
+        {
+            return;
+        }
         if (carregadorAtual == null || carregadorAtual.quantidadeAtual <= 0)
         {
             Debug.Log("Sem munição! Aperte R para recarregar.");
@@ -266,7 +272,11 @@ public class ArmaAirsoft : MonoBehaviour
             Debug.Log($"✓ Boca do cano atualizada para: {bocaDoCano.name}");
         }
     }
-    
+        public void PermitirAtirar(bool permitir)
+        {
+            podeAtirar = permitir;
+            Debug.Log($"Tiro {(permitir ? "LIBERADO" : "BLOQUEADO")}");
+        }
 }
 
 public enum TipoCarregador
