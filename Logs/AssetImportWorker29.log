@@ -1061,3 +1061,419 @@ Received Import Request.
 Start importing Assets/Scripts/FPSController.cs using Guid(585f3ad949fd17b40a70db32e9d5aa5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6e2cdc6d5cd38f1f551743065a192bf4') in 0.0362428 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
+========================================================================
+Received Prepare
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  0.556 seconds
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 1.35 ms, found 4 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Error saving file Library/StateCache/LayerSettings/9e/9ecc5c3c162a7aba29bafa64c8b94b7c.json. Error: System.IO.IOException: Sharing violation on path C:\unity\projects\AirSoftGame\Library\StateCache\LayerSettings\9e\9ecc5c3c162a7aba29bafa64c8b94b7c.json
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <59bd7c40c082431db25e1e728ab62789>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <59bd7c40c082431db25e1e728ab62789>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <59bd7c40c082431db25e1e728ab62789>:0 
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding) [0x00000] in <59bd7c40c082431db25e1e728ab62789>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string,bool,System.Text.Encoding)
+  at System.IO.File.WriteAllText (System.String path, System.String contents, System.Text.Encoding encoding) [0x00034] in <59bd7c40c082431db25e1e728ab62789>:0 
+  at UnityEditor.StateCache`1[T].SetState (UnityEngine.Hash128 key, T obj) [0x0004b] in <0f0e3f0466c5408ea28e69768919d41d>:0 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.StateCache`1<UnityEditor.Tools/LayerSettings>:SetState (UnityEngine.Hash128,UnityEditor.Tools/LayerSettings)
+UnityEditor.Tools:set_lockedLayers (int)
+UnityEditor.Tools:OnEnable ()
+UnityEngine.ScriptableObject:CreateScriptableObjectInstanceFromType (System.Type,bool)
+UnityEngine.ScriptableObject:CreateInstance (System.Type)
+UnityEngine.ScriptableObject:CreateInstance<UnityEditor.Tools> ()
+UnityEditor.Tools:get_get ()
+UnityEditor.Tools:get_visibleLayers ()
+UnityEditor.Animations.Rigging.BoneRendererUtils:.cctor () (at ./Library/PackageCache/com.unity.animation.rigging@e106d1f78228/Editor/Utils/BoneRendererUtils.cs:121)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: ./Library/PackageCache/com.unity.animation.rigging@e106d1f78228/Editor/Utils/BoneRendererUtils.cs Line: 121)
+
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.813 seconds
+Domain Reload Profiling: 1369ms
+	BeginReloadAssembly (155ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (47ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (20ms)
+	LoadAllAssembliesAndSetupDomain (350ms)
+		LoadAssemblies (275ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (133ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (117ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (813ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (699ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (134ms)
+			ProcessInitializeOnLoadAttributes (516ms)
+			ProcessInitializeOnLoadMethodAttributes (38ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (18ms)
+WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 1.56 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7484 unused Assets / (6.5 MB). Loaded Objects now: 8344.
+Memory consumption went from 181.2 MB to 174.7 MB.
+Total: 8.671700 ms (FindLiveObjects: 0.787500 ms CreateObjectMapping: 0.364500 ms MarkObjects: 4.819600 ms  DeleteObjects: 2.699500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.538 seconds
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 1.15 ms, found 4 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.777 seconds
+Domain Reload Profiling: 1316ms
+	BeginReloadAssembly (147ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (45ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (342ms)
+		LoadAssemblies (264ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (133ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (117ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (778ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (664ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (130ms)
+			ProcessInitializeOnLoadAttributes (488ms)
+			ProcessInitializeOnLoadMethodAttributes (35ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (18ms)
+WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 1.20 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7484 unused Assets / (6.4 MB). Loaded Objects now: 8348.
+Memory consumption went from 181.2 MB to 174.8 MB.
+Total: 7.763500 ms (FindLiveObjects: 0.715400 ms CreateObjectMapping: 0.257100 ms MarkObjects: 4.408800 ms  DeleteObjects: 2.381600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 573.985560 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(99c9720ab356a0642a771bea13969a05) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/SampleScene.unity using Guid(99c9720ab356a0642a771bea13969a05) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cf69a8e8234f8bdddb50800609315892') in 0.1212459 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.084402 seconds.
+  path: Assets/models/sold/SKM_Body_Full.fbx
+  artifactKey: Guid(4363f3c363c9ee541be9c2916c9f382c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/sold/SKM_Body_Full.fbx using Guid(4363f3c363c9ee541be9c2916c9f382c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f30537a9317a7c7170f3ef1fac4d4708') in 0.4173683 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 770
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/models/sold/SKM_Head.fbx
+  artifactKey: Guid(b426f9cd8ef5080468a08db829bc36b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/sold/SKM_Head.fbx using Guid(b426f9cd8ef5080468a08db829bc36b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a9f395c8c7dbc30c1178455ad2509e06') in 0.1025364 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 768
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/models/sold/SKM_Drops_1.fbx
+  artifactKey: Guid(bd9750f4cbf19434fb17f0bdcf2a21b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/sold/SKM_Drops_1.fbx using Guid(bd9750f4cbf19434fb17f0bdcf2a21b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '61b9238d44871a56d3b1347319a1267f') in 0.0222963 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 721
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/models/sold/SKM_Shirt_RolledUp.fbx
+  artifactKey: Guid(e4ff0999ef1eb174faaaa124ad795533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/sold/SKM_Shirt_RolledUp.fbx using Guid(e4ff0999ef1eb174faaaa124ad795533) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '749e21b3e907878c25f7aae7135fed62') in 0.0222125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 720
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/models/sold/SM_Cap.fbx
+  artifactKey: Guid(ebf7b9d8ce9bc72469181dfcd3c742ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/sold/SM_Cap.fbx using Guid(ebf7b9d8ce9bc72469181dfcd3c742ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c47546fe0e305a9a3b42df8496b8fa60') in 0.0172267 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/models/sold/SKM_Jeans.fbx
+  artifactKey: Guid(169278318eee90849beb1e8beb442380) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/sold/SKM_Jeans.fbx using Guid(169278318eee90849beb1e8beb442380) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4a2db764a48df4c03f7aaeed22d44f01') in 0.0253417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 722
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/models/sold/SKM_Holster_Hard.fbx
+  artifactKey: Guid(a06b6e3dbdd3b9c49a5be096dee2a638) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/sold/SKM_Holster_Hard.fbx using Guid(a06b6e3dbdd3b9c49a5be096dee2a638) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e81a5dab9753f2d6c24954bdba459fe1') in 0.031104 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 725
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.069135 seconds.
+  path: Assets/models/sold/Materials/Eye_BaseColor.mat
+  artifactKey: Guid(0f6f7ee2f45bde44db51f0b93f4d9417) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/sold/Materials/Eye_BaseColor.mat using Guid(0f6f7ee2f45bde44db51f0b93f4d9417) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e4572ec7a25f8c1e0c627e8abb3a35c5') in 0.0270259 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/models/sold/SKM_Head.fbx
+  artifactKey: Guid(b426f9cd8ef5080468a08db829bc36b7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/sold/SKM_Head.fbx using Guid(b426f9cd8ef5080468a08db829bc36b7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fb6fbb2793845a5bdadbac5a913a9909') in 0.0524302 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 728
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/models/sold/rifle/Materials
+  artifactKey: Guid(3b1b1dc466a7d6c43b60a8c6894c9497) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/sold/rifle/Materials using Guid(3b1b1dc466a7d6c43b60a8c6894c9497) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7e8ecab120ccc4aa6ead115f00325a7e') in 0.0030429 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/models/sold/SKM_Bulletproof.fbx
+  artifactKey: Guid(f2156b3cedbb1a84a99a48a94c39b22f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/sold/SKM_Bulletproof.fbx using Guid(f2156b3cedbb1a84a99a48a94c39b22f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0c62cb50c607823444adce0f94f591da') in 0.0172563 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 712
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/models/sold/SKM_Holster_Hard.fbx
+  artifactKey: Guid(a06b6e3dbdd3b9c49a5be096dee2a638) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/sold/SKM_Holster_Hard.fbx using Guid(a06b6e3dbdd3b9c49a5be096dee2a638) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8071ee92074e728568fd6cfad8b9c068') in 0.0156313 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 716
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/models/sold/Materials/T_Holster_Hard_BaseColor.mat
+  artifactKey: Guid(b6e3344f5cd62e147ab5e69989c39996) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/sold/Materials/T_Holster_Hard_BaseColor.mat using Guid(b6e3344f5cd62e147ab5e69989c39996) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '640a27cbc94df81995bdf59f19daa7c3') in 0.0109558 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/models/sold/SKM_Character_NoHead.fbx
+  artifactKey: Guid(df732d898c3f14b43971fd57bac80fe9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/sold/SKM_Character_NoHead.fbx using Guid(df732d898c3f14b43971fd57bac80fe9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3026d88bb3e3e6717de679ff2c2914f9') in 0.0416863 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 740
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/models/sold/Materials/T_Cap_BaseColor.mat
+  artifactKey: Guid(55ce1b3f4e6e14c4a9e8496434a25227) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/sold/Materials/T_Cap_BaseColor.mat using Guid(55ce1b3f4e6e14c4a9e8496434a25227) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '53de4a7df92c0cd93b4ba10e22d2ab78') in 0.0148018 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/models/sold/SKM_Character.fbx
+  artifactKey: Guid(53eb998dc3a65454b956ad1973310e16) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/sold/SKM_Character.fbx using Guid(53eb998dc3a65454b956ad1973310e16) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'aa2094e3cdbe5f987247ebbdc3d4b7d0') in 0.0419938 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 768
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/models/sold/Materials/T_Bulletproof_Light_BaseColor.mat
+  artifactKey: Guid(a73da5175c8b9be4c89d374481dcae9a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/sold/Materials/T_Bulletproof_Light_BaseColor.mat using Guid(a73da5175c8b9be4c89d374481dcae9a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5abb28c4ffb39319a33a29e9f077a2d4') in 0.0135292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/models/sold/Materials/T_Body_BaseColor.mat
+  artifactKey: Guid(2ab63005fb16060428a98e54b6d99d34) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/sold/Materials/T_Body_BaseColor.mat using Guid(2ab63005fb16060428a98e54b6d99d34) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '79194fe19e72eac29500c779d3a18ec8') in 0.0071418 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/models/sold/Materials/T_Head_BaseColor.mat
+  artifactKey: Guid(4f2cb6dfeda6dcd4aa32fd068cd2dc04) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/sold/Materials/T_Head_BaseColor.mat using Guid(4f2cb6dfeda6dcd4aa32fd068cd2dc04) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6eff335d8f862c38d7ab0f8cb5aa6628') in 0.0170902 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/models/sold/SKM_Arms.fbx
+  artifactKey: Guid(5fded20078ef529469d770664ee8fd81) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/sold/SKM_Arms.fbx using Guid(5fded20078ef529469d770664ee8fd81) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c7a7834287b01df90889b41f9b37f599') in 0.0134149 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 712
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/models/sold/Materials/M_Patches.mat
+  artifactKey: Guid(89c6b4ade9a1eb24498cd24675e8d04b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/sold/Materials/M_Patches.mat using Guid(89c6b4ade9a1eb24498cd24675e8d04b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '03415e5bb709b69f4d8e35c344706476') in 0.0123014 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/models/sold/Materials/M_Pistol.mat
+  artifactKey: Guid(2e8c882f037f4ff448731058e2ed1024) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/sold/Materials/M_Pistol.mat using Guid(2e8c882f037f4ff448731058e2ed1024) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c17caf7c527420ac93df50ecd5de48fe') in 0.0065797 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/models/sold/rifle
+  artifactKey: Guid(8c8a6bca12534ed40863372091f60411) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/sold/rifle using Guid(8c8a6bca12534ed40863372091f60411) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a1414e1afd9d7b21ea1d6b85e8bac2b5') in 0.0033533 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.852771 seconds.
+  path: Assets/models/rifle 1
+  artifactKey: Guid(2dfc39b81eba3df4ca8c0013e9951ef3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/rifle 1 using Guid(2dfc39b81eba3df4ca8c0013e9951ef3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c0069140349ee1b757f30827d286a3ef') in 0.0039309 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/models/Materials 1/Teeth_Color.mat
+  artifactKey: Guid(d1bf56a38caeb7f449a95c5acc9de59d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/Materials 1/Teeth_Color.mat using Guid(d1bf56a38caeb7f449a95c5acc9de59d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4b682cc166e57c8270992623841a40a3') in 0.0216001 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/models/Materials 1/M_Eyelashesh.mat
+  artifactKey: Guid(5fa964a838c9bfb4f974d72e04042430) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/Materials 1/M_Eyelashesh.mat using Guid(5fa964a838c9bfb4f974d72e04042430) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ca2e0b39dc10672c298d94b08b6e7c8c') in 0.0119425 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/models/Materials 1/M_Patches.mat
+  artifactKey: Guid(37557b0c64487ac4882a341437b591ee) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/Materials 1/M_Patches.mat using Guid(37557b0c64487ac4882a341437b591ee) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '91f074ba4b924d2044402e996250a031') in 0.0118884 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/models/Materials 1/M_Cap.mat
+  artifactKey: Guid(50e0a9c216073184198f9f4700e689c7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/Materials 1/M_Cap.mat using Guid(50e0a9c216073184198f9f4700e689c7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7c57ba120cb2bd88a304749ef0170d87') in 0.0099702 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/models/Materials 1/Rifle_BaseColor.mat
+  artifactKey: Guid(b8fb50ad20ce1d548914033871ce558f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/Materials 1/Rifle_BaseColor.mat using Guid(b8fb50ad20ce1d548914033871ce558f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c3b0600c64754c26987f25623c2d5629') in 0.0144736 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
