@@ -694,8 +694,8 @@ MonoBehaviour:
   playerLayer:
     serializedVersion: 2
     m_Bits: 4294967295
-  materialDisponivel: {fileID: 0}
-  materialCooldown: {fileID: 0}
+  materialDisponivel: {fileID: 2100000, guid: 596ba929da8a88c499b3e2e3d1b3d27a, type: 2}
+  materialCooldown: {fileID: 2100000, guid: dc445cf0045d66647a3909b924029fa2, type: 2}
 --- !u!1 &583431272 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8057963377090887788, guid: c39a3daf60fb2bc4390d45e6222b7b68, type: 3}
@@ -764,8 +764,8 @@ MonoBehaviour:
   playerLayer:
     serializedVersion: 2
     m_Bits: 4294967295
-  materialDisponivel: {fileID: 0}
-  materialCooldown: {fileID: 0}
+  materialDisponivel: {fileID: 2100000, guid: c9cd3983edba03c4790a996b86f3a904, type: 2}
+  materialCooldown: {fileID: 2100000, guid: 6c7bde3a13b0d894ab02df65f281cefb, type: 2}
 --- !u!135 &714118762
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -1531,8 +1531,8 @@ MonoBehaviour:
   playerLayer:
     serializedVersion: 2
     m_Bits: 4294967295
-  materialDisponivel: {fileID: 0}
-  materialCooldown: {fileID: 0}
+  materialDisponivel: {fileID: 2100000, guid: 41be456e0ecbed04dba9c27c3add980c, type: 2}
+  materialCooldown: {fileID: 2100000, guid: f52b6a8227589ad4fb14557916f69968, type: 2}
 --- !u!135 &1426362289
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -1975,8 +1975,8 @@ MonoBehaviour:
   playerLayer:
     serializedVersion: 2
     m_Bits: 4294967295
-  materialDisponivel: {fileID: 0}
-  materialCooldown: {fileID: 0}
+  materialDisponivel: {fileID: 2100000, guid: 0c24ff3f078566f4d9d83ee8bd6a3f72, type: 2}
+  materialCooldown: {fileID: 2100000, guid: 363ffa39544c0514b88c657250458276, type: 2}
 --- !u!135 &1691081984
 SphereCollider:
   m_ObjectHideFlags: 0
