@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 public class ArmaAirsoft : MonoBehaviour
@@ -18,6 +19,9 @@ public class ArmaAirsoft : MonoBehaviour
     
     [Header("Carregador")]
     public Carregador carregadorAtual;
+    public int municaoReserva = 100;
+    public float tempoRecarga = 2.5f;
+    private bool estaRecarregando = false;
     public bool fullAuto = false;
     
     [Header("Hop-up")]
@@ -37,23 +41,26 @@ public class ArmaAirsoft : MonoBehaviour
             fullAuto = !fullAuto;
             Debug.Log($"Full-Auto: {(fullAuto ? "ATIVADO" : "DESATIVADO")}");
         }
-
-        if (fullAuto && Input.GetMouseButton(0))
+        
+        if (!estaRecarregando)
         {
-            if (Time.time >= proximoDisparo)
+            if (fullAuto && Input.GetMouseButton(0))
+            {
+                if (Time.time >= proximoDisparo)
+                {
+                    Disparar();
+                    proximoDisparo = Time.time + (1f / rateOfFire);
+                }
+            }
+            else if (Input.GetMouseButtonDown(0))
             {
                 Disparar();
-                proximoDisparo = Time.time + (1f / rateOfFire);
             }
         }
-        else if (Input.GetMouseButtonDown(0))
+
+        if (Input.GetKeyDown(KeyCode.R) && !estaRecarregando)
         {
-            Disparar();
-        }
-        
-        if (Input.GetKeyDown(KeyCode.R))
-        {
-            Debug.Log("Recarregando...");
+            IniciarRecarga();
         }
     }
     
@@ -61,7 +68,8 @@ public class ArmaAirsoft : MonoBehaviour
     {
         if (carregadorAtual == null || carregadorAtual.quantidadeAtual <= 0)
         {
-            Debug.Log("Sem munição!");
+            Debug.Log("Sem munição! Aperte R para recarregar.");
+            // TODO: Som de "click" vazio aqui
             return;
         }
 
@@ -80,6 +88,62 @@ public class ArmaAirsoft : MonoBehaviour
         rbBB.linearVelocity = bocaDoCano.forward * velocidadeInicial;
 
         carregadorAtual.quantidadeAtual--;
+        
+        // TODO: Som de disparo aqui
+    }
+    
+    void IniciarRecarga()
+    {
+        if (carregadorAtual == null)
+        {
+            Debug.Log("Nenhum carregador equipado!");
+            return;
+        }
+        
+        if (carregadorAtual.quantidadeAtual >= carregadorAtual.capacidade)
+        {
+            Debug.Log("Carregador já está cheio!");
+            return;
+        }
+        
+        if (municaoReserva <= 0)
+        {
+            Debug.Log("Sem munição reserva!");
+            return;
+        }
+        
+        StartCoroutine(Recarregar());
+    }
+    
+    IEnumerator Recarregar()
+    {
+        estaRecarregando = true;
+        Debug.Log("Recarregando...");
+        
+        // TODO: Som de recarga inicial aqui (tirar carregador)
+
+        yield return new WaitForSeconds(tempoRecarga);
+        
+        int bbsFaltando = carregadorAtual.capacidade - carregadorAtual.quantidadeAtual;
+        int bbsParaAdicionar = Mathf.Min(bbsFaltando, municaoReserva);
+        carregadorAtual.quantidadeAtual += bbsParaAdicionar;
+        municaoReserva -= bbsParaAdicionar;
+        
+        estaRecarregando = false;
+        
+        Debug.Log($"Recarga completa! Carregador: {carregadorAtual.quantidadeAtual}/{carregadorAtual.capacidade} | Reserva: {municaoReserva}");
+        
+        // TODO: Som de recarga final aqui (inserir carregador)
+    }
+    
+    public bool EstaRecarregando()
+    {
+        return estaRecarregando;
+    }
+    
+    public int GetMunicaoReserva()
+    {
+        return municaoReserva;
     }
 }
 

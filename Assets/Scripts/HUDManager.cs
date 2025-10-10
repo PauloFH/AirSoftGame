@@ -12,7 +12,7 @@ public class HUDManager : MonoBehaviour
         if (arma.carregadorAtual != null)
         {
             float massaGramas = arma.carregadorAtual.massaBB * 1000;
-            textoMunicao.text = $"Munição: {arma.carregadorAtual.quantidadeAtual}/{arma.carregadorAtual.capacidade}\nMassa: {massaGramas:F2}g";
+            textoMunicao.text = $"Munição: {arma.carregadorAtual.quantidadeAtual}/{arma.municaoReserva}\nMassa: {massaGramas:F2}g";
         }
         
         textoHopUp.text = $"Hop-up: {arma.hopUpValue:F2}";
