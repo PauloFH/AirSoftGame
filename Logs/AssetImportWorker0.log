@@ -1,9 +1,9 @@
 [Licensing::Module] Trying to connect to existing licensing client channel...
 Built from '6000.2/respin/6000.2.7f1-2eb0c79396db' branch; Version is '6000.2.7f2 (2b518236b676) revision 2838914'; Using compiler version '194234433'; Build Type 'Release'
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-paulorh" at "2025-10-10T20:23:26.6847409Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-paulorh" at "2025-10-17T01:18:58.5632168Z"
 OS: 'Windows 11  (10.0.26100) 64bit Professional' Language: 'pt' Physical Memory: 31879 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
-Date: 2025-10-10T20:23:26Z
+Date: 2025-10-17T01:18:58Z
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity\Hub\Editor\6000.2.7f2\Editor\Unity.exe
@@ -17,7 +17,7 @@ C:/unity/projects/AirSoftGame
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-54915
+55830
 -licensingIpc
 LicenseClient-paulorh
 -job-worker-count
@@ -65,29 +65,29 @@ C:/unity/projects/AirSoftGame
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [3608]  Target information:
+Player connection [29232]  Target information:
 
-Player connection [3608]  * "[IP] 192.168.0.7 [Port] 0 [Flags] 2 [Guid] 3742673193 [EditorId] 3742673193 [Version] 1048832 [Id] WindowsEditor(7,paulo-pc) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [29232]  * "[IP] 192.168.0.5 [Port] 0 [Flags] 2 [Guid] 2163204385 [EditorId] 2163204385 [Version] 1048832 [Id] WindowsEditor(7,paulo-pc) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [3608]  * "[IP] 172.19.0.1 [Port] 0 [Flags] 2 [Guid] 3742673193 [EditorId] 3742673193 [Version] 1048832 [Id] WindowsEditor(7,paulo-pc) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [29232]  * "[IP] 172.20.64.1 [Port] 0 [Flags] 2 [Guid] 2163204385 [EditorId] 2163204385 [Version] 1048832 [Id] WindowsEditor(7,paulo-pc) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [3608] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [3608] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [29232] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [29232] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 11
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
-[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 7628, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 2808, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
 [Licensing::Module] LicensingClient has failed validation; ignoring
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.17.3+a4e98f1
-  Session Id:              c9d640106d7d41dda447b35de493ebda
-  Correlation Id:          c9165121116ba2ce1702f118a6e0fcfd
-  External correlation Id: 9132976863345346628
+  Session Id:              7e5154a3065d42d2a847df0dc2635088
+  Correlation Id:          b2376505432882e3845bcded8e8b943d
+  External correlation Id: 1325161240290157110
   Machine Id:              6sp8raTFMxvUwLzOQlZIojDac2U=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-paulorh" (connect: 0.00s, validation: 0.00s, handshake: 0.02s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-paulorh-notifications" at "2025-10-10T20:23:26.7079463Z"
-[Licensing::Module] Licensing Background thread has ended after 0.02s
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-paulorh" (connect: 0.00s, validation: 0.00s, handshake: 0.03s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-paulorh-notifications" at "2025-10-17T01:18:58.5966222Z"
+[Licensing::Module] Licensing Background thread has ended after 0.03s
 Library Redirect Path: Library/
 [Physics::Module] Selected backend.
 [Physics::Module] Name: PhysX
@@ -95,7 +95,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 3.87 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 56.45 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.2.7f2 (2b518236b676)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.2.7f2/Editor/Data/Resources/UnitySubsystems
@@ -111,7 +111,7 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.2.7f2/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.2.7f2/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.2.7f2/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56388
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56908
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.7f2/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
@@ -124,42 +124,42 @@ Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.7f2/E
   Expiration: Unlimited
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.7f2/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.7f2/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
-Registered in 0.003393 seconds.
-- Loaded All Assemblies, in  0.274 seconds
+Registered in 0.003778 seconds.
+- Loaded All Assemblies, in  0.290 seconds
 Native extension for LinuxStandalone target not found
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.308 seconds
-Domain Reload Profiling: 580ms
-	BeginReloadAssembly (90ms)
+- Finished resetting the current domain, in  0.284 seconds
+Domain Reload Profiling: 572ms
+	BeginReloadAssembly (103ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (24ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (36ms)
-	LoadAllAssembliesAndSetupDomain (114ms)
-		LoadAssemblies (88ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (106ms)
+		LoadAssemblies (101ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (112ms)
-			TypeCache.Refresh (110ms)
-				TypeCache.ScanAssembly (101ms)
+		AnalyzeDomain (103ms)
+			TypeCache.Refresh (102ms)
+				TypeCache.ScanAssembly (93ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (308ms)
+	FinalizeReload (284ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (280ms)
+		SetupLoadedEditorAssemblies (250ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (45ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (47ms)
-			ProcessInitializeOnLoadAttributes (137ms)
-			ProcessInitializeOnLoadMethodAttributes (47ms)
+			InitializePlatformSupportModulesInManaged (53ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (51ms)
+			ProcessInitializeOnLoadAttributes (100ms)
+			ProcessInitializeOnLoadMethodAttributes (40ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -172,11 +172,11 @@ Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInter
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 Begin MonoManager ReloadAssembly
 [Licensing::Client] Successfully resolved entitlement details
-- Loaded All Assemblies, in  0.670 seconds
+- Loaded All Assemblies, in  0.706 seconds
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 1.09 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 1.31 ms, found 4 plugins.
 Native extension for LinuxStandalone target not found
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
@@ -193,39 +193,39 @@ Package Manager log level set to [2]
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.879 seconds
-Domain Reload Profiling: 1542ms
-	BeginReloadAssembly (141ms)
+- Finished resetting the current domain, in  1.078 seconds
+Domain Reload Profiling: 1779ms
+	BeginReloadAssembly (134ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
+		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (30ms)
-	RebuildCommonClasses (27ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (31ms)
-	LoadAllAssembliesAndSetupDomain (454ms)
-		LoadAssemblies (333ms)
+		CreateAndSetChildDomain (28ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (38ms)
+	LoadAllAssembliesAndSetupDomain (493ms)
+		LoadAssemblies (345ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (193ms)
-			TypeCache.Refresh (141ms)
-				TypeCache.ScanAssembly (130ms)
-			BuildScriptInfoCaches (40ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (880ms)
+		AnalyzeDomain (215ms)
+			TypeCache.Refresh (147ms)
+				TypeCache.ScanAssembly (135ms)
+			BuildScriptInfoCaches (53ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (1078ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (735ms)
+		SetupLoadedEditorAssemblies (829ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (155ms)
-			ProcessInitializeOnLoadAttributes (534ms)
-			ProcessInitializeOnLoadMethodAttributes (35ms)
-			AfterProcessingInitializeOnLoad (5ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (176ms)
+			ProcessInitializeOnLoadAttributes (609ms)
+			ProcessInitializeOnLoadMethodAttributes (33ms)
+			AfterProcessingInitializeOnLoad (4ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
 WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
@@ -233,167 +233,26 @@ WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshad
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 1.32 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 1.79 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7497 unused Assets / (7.8 MB). Loaded Objects now: 8268.
-Memory consumption went from 153.9 MB to 146.1 MB.
-Total: 11.105300 ms (FindLiveObjects: 0.795000 ms CreateObjectMapping: 0.848400 ms MarkObjects: 5.240500 ms  DeleteObjects: 4.220400 ms)
+Unloading 7499 unused Assets / (7.7 MB). Loaded Objects now: 8270.
+Memory consumption went from 155.8 MB to 148.2 MB.
+Total: 11.733900 ms (FindLiveObjects: 0.891500 ms CreateObjectMapping: 0.721200 ms MarkObjects: 6.062000 ms  DeleteObjects: 4.058300 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 4261.455231 seconds.
-  path: Assets/Scripts/ArmaAirsoft.cs
-  artifactKey: Guid(11566abe6c06ac04dbc20b46c8b168ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/ArmaAirsoft.cs using Guid(11566abe6c06ac04dbc20b46c8b168ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a2e0c01d71f41d9820db35379738b48b') in 0.0099212 seconds
+  Time since last request: 1632.049509 seconds.
+  path: Assets/Scripts/FPSController.cs
+  artifactKey: Guid(585f3ad949fd17b40a70db32e9d5aa5c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/FPSController.cs using Guid(585f3ad949fd17b40a70db32e9d5aa5c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8db68c6cfb97b111d7579aff8321a56d') in 0.2232943 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 95.388309 seconds.
-  path: Assets/models/sold/rifle/Materials
-  artifactKey: Guid(3b1b1dc466a7d6c43b60a8c6894c9497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/sold/rifle/Materials using Guid(3b1b1dc466a7d6c43b60a8c6894c9497) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1f96aa52418a13f462261602fe0e2d08') in 0.0032401 seconds
+  Time since last request: 0.000025 seconds.
+  path: Assets/Scripts/StandDeTiroManager.cs
+  artifactKey: Guid(0ed531ac9887c074484849d074d4476d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/StandDeTiroManager.cs using Guid(0ed531ac9887c074484849d074d4476d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e54cf78f3d16de2eec8ad1c1a868048d') in 0.0047498 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
-========================================================================
-Received Import Request.
-  Time since last request: 0.046480 seconds.
-  path: Assets/models/sold/rifle/Materials/Rifle_BaseColor.mat
-  artifactKey: Guid(c9cd3983edba03c4790a996b86f3a904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/sold/rifle/Materials/Rifle_BaseColor.mat using Guid(c9cd3983edba03c4790a996b86f3a904) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '212ad20eab2beeb99a4bff136dfd866d') in 0.3296719 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.820810 seconds.
-  path: Assets/models/sold/rifle/Materials/Rifle_BaseColor 1.mat
-  artifactKey: Guid(6c7bde3a13b0d894ab02df65f281cefb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/sold/rifle/Materials/Rifle_BaseColor 1.mat using Guid(6c7bde3a13b0d894ab02df65f281cefb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1ca921fa98e04e832dd9d19ad49cf0bd') in 0.0173381 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.984559 seconds.
-  path: Assets/Scenes/IndoorShootingRange.unity
-  artifactKey: Guid(1e7f36b97dc5bad419d0dff62d4ce7c3) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Scenes/IndoorShootingRange.unity using Guid(1e7f36b97dc5bad419d0dff62d4ce7c3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cf66db28e86821b5c5d36040f41372af') in 0.1261696 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/models/sold/rifle/Materials/Rifle_BaseColor 1.mat
-  artifactKey: Guid(6c7bde3a13b0d894ab02df65f281cefb) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/models/sold/rifle/Materials/Rifle_BaseColor 1.mat using Guid(6c7bde3a13b0d894ab02df65f281cefb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8f9e93ec1964ddefe475f3364bd55b82') in 0.0346235 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Scripts/CarregadorPickup.cs
-  artifactKey: Guid(bb625afdd3ca4e9d8e82dfa0f6b57267) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Scripts/CarregadorPickup.cs using Guid(bb625afdd3ca4e9d8e82dfa0f6b57267) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '164ec3dd707c606157d365b90005bd2b') in 0.0113584 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Scripts/ArmaAirsoft.cs
-  artifactKey: Guid(11566abe6c06ac04dbc20b46c8b168ca) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Scripts/ArmaAirsoft.cs using Guid(11566abe6c06ac04dbc20b46c8b168ca) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0722b85d3c2182d17b9ecb5f7433fc36') in 0.0041433 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
-  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8df8dda7115636034d0119967b111408') in 0.0545029 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 36.259369 seconds.
-  path: Assets/Nokobot/Modern Guns - Handgun/_Prefabs/45ACP Bullet_Casing.prefab
-  artifactKey: Guid(4cb20e8abae957146a8b78e670d3fe74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Nokobot/Modern Guns - Handgun/_Prefabs/45ACP Bullet_Casing.prefab using Guid(4cb20e8abae957146a8b78e670d3fe74) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0ca34f93e1c58dfefe89ccb5663ca000') in 0.020232 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.282091 seconds.
-  path: Assets/Nokobot/Modern Guns - Handgun/Effects/MuzzleFlash.prefab
-  artifactKey: Guid(3dd9cf2e209c504448f1c4c6835675cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Nokobot/Modern Guns - Handgun/Effects/MuzzleFlash.prefab using Guid(3dd9cf2e209c504448f1c4c6835675cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '99056824ed2bc6fa1b609582fe06d3bb') in 0.0121695 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.200266 seconds.
-  path: Assets/Nokobot/Modern Guns - Handgun/Materials/M1911 Handgun_Steel.mat
-  artifactKey: Guid(a22ca1073de33674b8cd0036fcb92947) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Nokobot/Modern Guns - Handgun/Materials/M1911 Handgun_Steel.mat using Guid(a22ca1073de33674b8cd0036fcb92947) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '86e7acee514ed6a2f6ede8c96f6514e8') in 0.0238734 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.740468 seconds.
-  path: Assets/Nokobot/Modern Guns - Handgun/Meshes/M1911 Handgun.fbx
-  artifactKey: Guid(3d87184bf4725b841b26693d2234fffd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Nokobot/Modern Guns - Handgun/Meshes/M1911 Handgun.fbx using Guid(3d87184bf4725b841b26693d2234fffd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '79a14ef9861869737e502e4cc12255ad') in 0.0633377 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 31
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.204001 seconds.
-  path: Assets/Nokobot/Modern Guns - Handgun/Meshes/Materials/LowPoly_colt45_tesselted_Colt45_Black_AlbedoTransparency.mat
-  artifactKey: Guid(596ba929da8a88c499b3e2e3d1b3d27a) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Nokobot/Modern Guns - Handgun/Meshes/Materials/LowPoly_colt45_tesselted_Colt45_Black_AlbedoTransparency.mat using Guid(596ba929da8a88c499b3e2e3d1b3d27a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ef83251672df5306ccecc8eb9366af10') in 0.0048986 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 22.718511 seconds.
-  path: Assets/Nokobot/Modern Guns - Handgun/Textures/45ACP_Bullet_Normal.png
-  artifactKey: Guid(df9023114d04044448b061e46927ce9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Nokobot/Modern Guns - Handgun/Textures/45ACP_Bullet_Normal.png using Guid(df9023114d04044448b061e46927ce9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[Licensing::Client] Successfully resolved entitlement details
- -> (artifact id: '1675f0b5d5a4a8db0181f2f38b0ccc9e') in 0.0160232 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Nokobot/Modern Guns - Handgun/Textures/M1911_Magazine_MetallicSmoothness.png
-  artifactKey: Guid(0b3650749f4c1b045bc33f08bb4f2f62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Nokobot/Modern Guns - Handgun/Textures/M1911_Magazine_MetallicSmoothness.png using Guid(0b3650749f4c1b045bc33f08bb4f2f62) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'af1e352ce063754a3df0ea7208322c47') in 0.0059185 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Nokobot/Modern Guns - Handgun/Textures/M1911_Handgun_MetallicSmoothness.png
-  artifactKey: Guid(1ed6c1c5fa7989e4597a77c8148b0876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Nokobot/Modern Guns - Handgun/Textures/M1911_Handgun_MetallicSmoothness.png using Guid(1ed6c1c5fa7989e4597a77c8148b0876) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3c523f56bca169dbd45c1cf5a1938683') in 0.0088639 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 55.490247 seconds.
-  path: Assets/Nokobot/Modern Guns - Handgun/Materials/M1911 Magazine_Black.mat
-  artifactKey: Guid(ad4be7b2be81ece4cbe850cfede8b9de) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Nokobot/Modern Guns - Handgun/Materials/M1911 Magazine_Black.mat using Guid(ad4be7b2be81ece4cbe850cfede8b9de) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e9e95563061a9e084b19ee78b6859d3f') in 0.0117005 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
-
-========================================================================
-Received Import Request.
-  Time since last request: 51.957912 seconds.
-  path: Assets/Nokobot/Modern Guns - Handgun/Meshes/Materials/LowPoly_colt45_tesselted_Colt45_Black_AlbedoTransparency.mat
-  artifactKey: Guid(596ba929da8a88c499b3e2e3d1b3d27a) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Nokobot/Modern Guns - Handgun/Meshes/Materials/LowPoly_colt45_tesselted_Colt45_Black_AlbedoTransparency.mat using Guid(596ba929da8a88c499b3e2e3d1b3d27a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '156c20d7618e41ca1d6a0afa91ae1c05') in 0.0150553 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
-
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
