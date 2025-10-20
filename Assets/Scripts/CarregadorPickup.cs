@@ -6,26 +6,23 @@ public class CarregadorPickup : MonoBehaviour {
 
     public int capacidade = 30;
     public float massaBB = 0.0002f; // 0.2g
-[Header("Visual")]
-    public float velocidadeRotacao = 50f;
+    [Header("Visual")] public float velocidadeRotacao = 50f;
     public float amplitudeFlutuar = 0.3f;
     public float velocidadeFlutuar = 2f;
-    
-    [Header("Interação")]
-    public float raioDeteccao = 3f;
+
+    [Header("Interação")] public float raioDeteccao = 3f;
     public float cooldownPegar = 3f;
     public LayerMask playerLayer;
-    
+
     private Vector3 posicaoInicial;
     private Transform playerProximo = null;
     private float proximoTempoDisponivel = 0f;
     private bool podeInteragir = true;
-    
-    [Header("Feedback Visual")]
-    public Material materialDisponivel;
+
+    [Header("Feedback Visual")] public Material materialDisponivel;
     public Material materialCooldown;
     private Renderer meshRenderer;
-    
+
     void Start() {
         posicaoInicial = transform.position;
         meshRenderer = GetComponentInChildren<Renderer>();
@@ -33,6 +30,7 @@ public class CarregadorPickup : MonoBehaviour {
         if (trigger == null) {
             trigger = gameObject.AddComponent<SphereCollider>();
         }
+
         trigger.isTrigger = true;
         trigger.radius = raioDeteccao;
     }
@@ -43,11 +41,13 @@ public class CarregadorPickup : MonoBehaviour {
             meshRenderer.material = podeInteragir ? materialDisponivel : materialCooldown;
         }
     }
+
     void AnimarCarregador() {
         transform.Rotate(Vector3.up, velocidadeRotacao * Time.deltaTime);
         float novaY = posicaoInicial.y + Mathf.Sin(Time.time * velocidadeFlutuar) * amplitudeFlutuar;
         transform.position = new Vector3(posicaoInicial.x, novaY, posicaoInicial.z);
     }
+
     void OnTriggerEnter(Collider other) {
         if (other.CompareTag("Player") && podeInteragir) {
             playerProximo = other.transform;
@@ -81,10 +81,7 @@ public class CarregadorPickup : MonoBehaviour {
 
     void RecarregarAutomatico(ArmaAirsoft arma) {
         int municaoRecebida = 100;
-        arma.municaoReserva += municaoRecebida;
-
-        Debug.Log($"Munição recarregada! +{municaoRecebida} BBs na reserva. Total: {arma.municaoReserva}");
-
+        arma.municaoReserva = municaoRecebida;
         podeInteragir = false;
         proximoTempoDisponivel = Time.time + cooldownPegar;
 
@@ -122,10 +119,12 @@ public class CarregadorPickup : MonoBehaviour {
             transform.localScale = escalaOriginal * fator;
             yield return null;
         }
+
         transform.localScale = escalaOriginal;
         yield return new WaitForSeconds(cooldownPegar);
         podeInteragir = true;
     }
+
     void OnDrawGizmosSelected() {
         Gizmos.color = podeInteragir ? Color.yellow : Color.red;
         Gizmos.DrawWireSphere(transform.position, raioDeteccao);

@@ -44,7 +44,6 @@ public class FPSController : MonoBehaviour
             Movimentar();
         }
         
-        // ESC para destravar cursor (debug)
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             Cursor.lockState = CursorLockMode.None;

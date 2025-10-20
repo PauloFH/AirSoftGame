@@ -19,8 +19,6 @@ public class BB : MonoBehaviour
         rb = GetComponent<Rigidbody>();
         rb.mass = massa;
         rb.useGravity = true;
-        
-        Debug.Log($"BB criada - Massa: {massa} kg, Gravity: {rb.useGravity}, Kinematic: {rb.isKinematic}");
         Debug.Log($"Velocidade inicial da BB: {rb.linearVelocity.magnitude} m/s");
         StartCoroutine(DestruirSeCaindo());
         Destroy(gameObject, 10f);
@@ -51,8 +49,7 @@ public class BB : MonoBehaviour
         
         if (velocidade > 0.1f && backspinDrag > 0.01f)
         {
-            float escalaRealista = backspinDrag * 0.00009f;
-            float forcaMagnus = velocidade * escalaRealista;
+            float forcaMagnus = velocidade *  backspinDrag * 0.0001f;
             rb.AddForce(Vector3.up * forcaMagnus, ForceMode.Force);
         }
     }

@@ -209,23 +209,6 @@ public class ArmaAirsoft : MonoBehaviour
         }
     }
     
-    public void EquiparNovoCarregador(Carregador novoCarregador, TipoCarregador novoTipo)
-    {
-        carregadorAtual = novoCarregador;
-        tipoCarregador = novoTipo;
-        Debug.Log($"Novo carregador equipado: {novoTipo} - {novoCarregador.capacidade} BBs de {novoCarregador.massaBB * 1000}g");
-    }
-    
-    public bool EstaRecarregando()
-    {
-        return estaRecarregando;
-    }
-    
-    public int GetMunicaoReserva()
-    {
-        return municaoReserva;
-    }
-    
     public void TrocarMeshArma(TipoCarregador novoTipo)
     {
         if (meshAtual != null)
@@ -272,11 +255,7 @@ public class ArmaAirsoft : MonoBehaviour
             Debug.Log($"✓ Boca do cano atualizada para: {bocaDoCano.name}");
         }
     }
-        public void PermitirAtirar(bool permitir)
-        {
-            podeAtirar = permitir;
-            Debug.Log($"Tiro {(permitir ? "LIBERADO" : "BLOQUEADO")}");
-        }
+
 }
 
 public enum TipoCarregador
