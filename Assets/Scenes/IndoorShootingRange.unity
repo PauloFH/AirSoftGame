@@ -765,9 +765,6 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 4482802267212642050, guid: dff97299e9c1a1c4da2fcffdd6e84a91, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1889617842}
-    - targetCorrespondingSourceObject: {fileID: 4482802267212642050, guid: dff97299e9c1a1c4da2fcffdd6e84a91, type: 3}
-      insertIndex: -1
       addedObject: {fileID: 1889617841}
     - targetCorrespondingSourceObject: {fileID: 4482802267212642050, guid: dff97299e9c1a1c4da2fcffdd6e84a91, type: 3}
       insertIndex: -1
@@ -1001,25 +998,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.5760937, y: 1.1003503, z: 0.0036433148}
   m_Center: {x: 0.003572464, y: -0.77909774, z: 0.00000036437996}
---- !u!114 &470657464
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 470657460}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2238407bd6e22eb4ebf46560b7ca6fd7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::AlvoAirsoft
-  pontosPorAcerto: 10
-  alvoMovel: 0
-  velocidadeMovimento: 2
-  distanciaMovimento: 5
-  movimentoHorizontal: 1
-  corAcerto: {r: 1, g: 0, b: 0, a: 1}
-  duracaoCorAcerto: 0.2
 --- !u!1 &473934782
 GameObject:
   m_ObjectHideFlags: 0
@@ -1388,9 +1366,6 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 4482802267212642050, guid: dff97299e9c1a1c4da2fcffdd6e84a91, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 656332185}
-    - targetCorrespondingSourceObject: {fileID: 4482802267212642050, guid: dff97299e9c1a1c4da2fcffdd6e84a91, type: 3}
-      insertIndex: -1
       addedObject: {fileID: 656332184}
     - targetCorrespondingSourceObject: {fileID: 4482802267212642050, guid: dff97299e9c1a1c4da2fcffdd6e84a91, type: 3}
       insertIndex: -1
@@ -1440,25 +1415,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.5760937, y: 1.1003503, z: 0.0036433148}
   m_Center: {x: 0.003572464, y: -0.77909774, z: 0.00000036437996}
---- !u!114 &518437847
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 518437843}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2238407bd6e22eb4ebf46560b7ca6fd7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::AlvoAirsoft
-  pontosPorAcerto: 10
-  alvoMovel: 0
-  velocidadeMovimento: 2
-  distanciaMovimento: 5
-  movimentoHorizontal: 1
-  corAcerto: {r: 1, g: 0, b: 0, a: 1}
-  duracaoCorAcerto: 0.2
 --- !u!1 &523895525
 GameObject:
   m_ObjectHideFlags: 0
@@ -1912,25 +1868,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.5760937, y: 1.1003503, z: 0.0036433148}
   m_Center: {x: 0.003572464, y: -0.77909774, z: 0.00000036437996}
---- !u!114 &656332185
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 656332181}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2238407bd6e22eb4ebf46560b7ca6fd7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::AlvoAirsoft
-  pontosPorAcerto: 10
-  alvoMovel: 0
-  velocidadeMovimento: 2
-  distanciaMovimento: 5
-  movimentoHorizontal: 1
-  corAcerto: {r: 1, g: 0, b: 0, a: 1}
-  duracaoCorAcerto: 0.2
 --- !u!1 &669489579
 GameObject:
   m_ObjectHideFlags: 0
@@ -2052,6 +1989,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TriggerStandDeTiro
   uiStand: {fileID: 0}
+  playerDentro: 0
 --- !u!65 &679989609
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2373,9 +2311,6 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 4482802267212642050, guid: dff97299e9c1a1c4da2fcffdd6e84a91, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1987992830}
-    - targetCorrespondingSourceObject: {fileID: 4482802267212642050, guid: dff97299e9c1a1c4da2fcffdd6e84a91, type: 3}
-      insertIndex: -1
       addedObject: {fileID: 1987992829}
     - targetCorrespondingSourceObject: {fileID: 4482802267212642050, guid: dff97299e9c1a1c4da2fcffdd6e84a91, type: 3}
       insertIndex: -1
@@ -2504,9 +2439,6 @@ PrefabInstance:
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 4482802267212642050, guid: dff97299e9c1a1c4da2fcffdd6e84a91, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 879271065}
     - targetCorrespondingSourceObject: {fileID: 4482802267212642050, guid: dff97299e9c1a1c4da2fcffdd6e84a91, type: 3}
       insertIndex: -1
       addedObject: {fileID: 879271064}
@@ -2638,25 +2570,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.5760937, y: 1.1003503, z: 0.0036433148}
   m_Center: {x: 0.003572464, y: -0.77909774, z: 0.00000036437996}
---- !u!114 &879271065
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 879271061}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2238407bd6e22eb4ebf46560b7ca6fd7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::AlvoAirsoft
-  pontosPorAcerto: 10
-  alvoMovel: 0
-  velocidadeMovimento: 2
-  distanciaMovimento: 5
-  movimentoHorizontal: 1
-  corAcerto: {r: 1, g: 0, b: 0, a: 1}
-  duracaoCorAcerto: 0.2
 --- !u!1 &967806588 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4482802267212642050, guid: dff97299e9c1a1c4da2fcffdd6e84a91, type: 3}
@@ -2701,25 +2614,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.5760937, y: 1.1003503, z: 0.0036433148}
   m_Center: {x: 0.003572464, y: -0.77909774, z: 0.00000036437996}
---- !u!114 &967806592
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 967806588}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2238407bd6e22eb4ebf46560b7ca6fd7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::AlvoAirsoft
-  pontosPorAcerto: 10
-  alvoMovel: 0
-  velocidadeMovimento: 2
-  distanciaMovimento: 5
-  movimentoHorizontal: 1
-  corAcerto: {r: 1, g: 0, b: 0, a: 1}
-  duracaoCorAcerto: 0.2
 --- !u!1 &1018113339
 GameObject:
   m_ObjectHideFlags: 0
@@ -3369,9 +3263,6 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 4482802267212642050, guid: dff97299e9c1a1c4da2fcffdd6e84a91, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 967806592}
-    - targetCorrespondingSourceObject: {fileID: 4482802267212642050, guid: dff97299e9c1a1c4da2fcffdd6e84a91, type: 3}
-      insertIndex: -1
       addedObject: {fileID: 967806591}
     - targetCorrespondingSourceObject: {fileID: 4482802267212642050, guid: dff97299e9c1a1c4da2fcffdd6e84a91, type: 3}
       insertIndex: -1
@@ -3510,9 +3401,6 @@ PrefabInstance:
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 4482802267212642050, guid: dff97299e9c1a1c4da2fcffdd6e84a91, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 470657464}
     - targetCorrespondingSourceObject: {fileID: 4482802267212642050, guid: dff97299e9c1a1c4da2fcffdd6e84a91, type: 3}
       insertIndex: -1
       addedObject: {fileID: 470657463}
@@ -3957,25 +3845,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3854461455595613624, guid: dff97299e9c1a1c4da2fcffdd6e84a91, type: 3}
   m_PrefabInstance: {fileID: 1622040889}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1528755849
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1528755847}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2238407bd6e22eb4ebf46560b7ca6fd7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::AlvoAirsoft
-  pontosPorAcerto: 10
-  alvoMovel: 0
-  velocidadeMovimento: 2
-  distanciaMovimento: 5
-  movimentoHorizontal: 1
-  corAcerto: {r: 1, g: 0, b: 0, a: 1}
-  duracaoCorAcerto: 0.2
 --- !u!65 &1528755850
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4443,9 +4312,6 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 4482802267212642050, guid: dff97299e9c1a1c4da2fcffdd6e84a91, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1528755849}
-    - targetCorrespondingSourceObject: {fileID: 4482802267212642050, guid: dff97299e9c1a1c4da2fcffdd6e84a91, type: 3}
-      insertIndex: -1
       addedObject: {fileID: 1528755850}
     - targetCorrespondingSourceObject: {fileID: 4482802267212642050, guid: dff97299e9c1a1c4da2fcffdd6e84a91, type: 3}
       insertIndex: -1
@@ -4771,6 +4637,10 @@ MonoBehaviour:
   playerController: {fileID: 1060972747}
   armaPlayer: {fileID: 1806411913}
   uiStand: {fileID: 0}
+  jogoAtivo: 0
+  tempoRestante: 0
+  pontuacaoAtual: 0
+  acertosTotal: 0
 --- !u!4 &1702923944
 Transform:
   m_ObjectHideFlags: 0
@@ -5122,9 +4992,6 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 4482802267212642050, guid: dff97299e9c1a1c4da2fcffdd6e84a91, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 518437847}
-    - targetCorrespondingSourceObject: {fileID: 4482802267212642050, guid: dff97299e9c1a1c4da2fcffdd6e84a91, type: 3}
-      insertIndex: -1
       addedObject: {fileID: 518437846}
     - targetCorrespondingSourceObject: {fileID: 4482802267212642050, guid: dff97299e9c1a1c4da2fcffdd6e84a91, type: 3}
       insertIndex: -1
@@ -5174,25 +5041,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.5760937, y: 1.1003503, z: 0.0036433148}
   m_Center: {x: 0.003572464, y: -0.77909774, z: 0.00000036437996}
---- !u!114 &1889617842
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1889617838}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2238407bd6e22eb4ebf46560b7ca6fd7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::AlvoAirsoft
-  pontosPorAcerto: 10
-  alvoMovel: 0
-  velocidadeMovimento: 2
-  distanciaMovimento: 5
-  movimentoHorizontal: 1
-  corAcerto: {r: 1, g: 0, b: 0, a: 1}
-  duracaoCorAcerto: 0.2
 --- !u!1 &1960904794
 GameObject:
   m_ObjectHideFlags: 0
@@ -5398,25 +5246,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.5760937, y: 1.1003503, z: 0.0036433148}
   m_Center: {x: 0.003572464, y: -0.77909774, z: 0.00000036437996}
---- !u!114 &1987992830
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1987992826}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2238407bd6e22eb4ebf46560b7ca6fd7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::AlvoAirsoft
-  pontosPorAcerto: 10
-  alvoMovel: 0
-  velocidadeMovimento: 2
-  distanciaMovimento: 5
-  movimentoHorizontal: 1
-  corAcerto: {r: 1, g: 0, b: 0, a: 1}
-  duracaoCorAcerto: 0.2
 --- !u!1 &1988033410 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4482802267212642050, guid: dff97299e9c1a1c4da2fcffdd6e84a91, type: 3}
@@ -5461,25 +5290,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.5760937, y: 1.1003503, z: 0.0036433148}
   m_Center: {x: 0.003572464, y: -0.77909774, z: 0.00000036437996}
---- !u!114 &1988033414
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1988033410}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2238407bd6e22eb4ebf46560b7ca6fd7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::AlvoAirsoft
-  pontosPorAcerto: 10
-  alvoMovel: 0
-  velocidadeMovimento: 2
-  distanciaMovimento: 5
-  movimentoHorizontal: 1
-  corAcerto: {r: 1, g: 0, b: 0, a: 1}
-  duracaoCorAcerto: 0.2
 --- !u!1 &1988451814
 GameObject:
   m_ObjectHideFlags: 0
@@ -5801,9 +5611,6 @@ PrefabInstance:
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 4482802267212642050, guid: dff97299e9c1a1c4da2fcffdd6e84a91, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1988033414}
     - targetCorrespondingSourceObject: {fileID: 4482802267212642050, guid: dff97299e9c1a1c4da2fcffdd6e84a91, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1988033413}

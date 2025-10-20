@@ -1,9 +1,9 @@
 using UnityEngine;
 
-public class AlvoSimple : MonoBehaviour
+public class Alvo : MonoBehaviour
 {
     [HideInInspector]
-    public ShootingRangeSimple manager;
+    public TiroAoAlvoManager manager;
     
     void OnCollisionEnter(Collision collision)
     {

@@ -2,7 +2,7 @@ using UnityEngine;
 using System.Collections.Generic;
 using UnityEngine.UI;
 
-public class ShootingRangeSimple : MonoBehaviour
+public class TiroAoAlvoManager : MonoBehaviour
 {
     [Header("UI")]
     public Text txtPontuacao;
@@ -29,7 +29,7 @@ public class ShootingRangeSimple : MonoBehaviour
                 template.name = alvo.name + "_Template";
                 prefabsAlvos.Add(template);
                 alvosAtivos.Add(alvo);
-                AlvoSimple script = alvo.GetComponent<AlvoSimple>();
+                Alvo script = alvo.GetComponent<Alvo>();
                 if (script != null)
                 {
                     script.manager = this;
@@ -86,7 +86,7 @@ public class ShootingRangeSimple : MonoBehaviour
                 GameObject novoAlvo = Instantiate(prefabsAlvos[i], posicoesOriginais[i], rotacoesOriginais[i]);
                 novoAlvo.SetActive(true);
                 novoAlvo.name = prefabsAlvos[i].name.Replace("_Template", "");
-                AlvoSimple script = novoAlvo.GetComponent<AlvoSimple>();
+                Alvo script = novoAlvo.GetComponent<Alvo>();
                 if (script != null)
                 {
                     script.manager = this;
