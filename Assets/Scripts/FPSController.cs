@@ -6,7 +6,7 @@ public class FPSController : MonoBehaviour
     [Header("Movimento")]
     public float velocidadeCaminhada = 5f;
     public float velocidadeCorrida = 8f;
-    public float forcaPulo = 7f;
+    public float forcaPulo = 2f;
     public float gravidade = -20f;
     
     [Header("Mouse Look")]
@@ -68,7 +68,7 @@ public class FPSController : MonoBehaviour
         
         float velocidadeAtual = Input.GetKey(KeyCode.LeftShift) ? velocidadeCorrida : velocidadeCaminhada;
         
-        controller.Move(direcao * velocidadeAtual * Time.deltaTime);
+        controller.Move(direcao * (velocidadeAtual * Time.deltaTime));
         
         if (Input.GetButtonDown("Jump") && estaNoChao)
         {
@@ -89,11 +89,5 @@ public class FPSController : MonoBehaviour
         rotacaoX -= mouseY;
         rotacaoX = Mathf.Clamp(rotacaoX, limiteVerticalMin, limiteVerticalMax);
         cameraTransform.localRotation = Quaternion.Euler(rotacaoX, 0f, 0f);
-    }
-
-    public void TravarMovimento(bool travar)
-    {
-        movimentoTravado = travar;
-        Debug.Log($"Movimento {(travar ? "TRAVADO" : "DESTRAVADO")}");
     }
 }

@@ -9,7 +9,7 @@ public class AlvoAirsoft : MonoBehaviour
     [Header("Movimento (se alvoMovel = true)")]
     public float velocidadeMovimento = 2f;
     public float distanciaMovimento = 5f;
-    public bool movimentoHorizontal = true; // true = X, false = Z
+    public bool movimentoHorizontal = true;
     
     [Header("Visual")]
     public Color corAcerto = Color.red;
@@ -70,7 +70,6 @@ public class AlvoAirsoft : MonoBehaviour
         if (StandDeTiroManager.Instance != null)
         {
             StandDeTiroManager.Instance.AdicionarPontos(pontosPorAcerto);
-            Debug.Log($"ACERTO! +{pontosPorAcerto} pontos");
             
             if (alvoRenderer != null)
             {

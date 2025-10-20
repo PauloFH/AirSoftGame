@@ -77,14 +77,6 @@ public class BB : MonoBehaviour
     
     void OnCollisionEnter(Collision collision)
     {
-        AlvoAirsoft alvo = collision.gameObject.GetComponent<AlvoAirsoft>();
-        if (alvo != null)
-        {
-            alvo.RegistrarAcerto();
-        }
-        
-        rb.linearVelocity = Vector3.zero;
-        rb.isKinematic = true;
-        Destroy(gameObject, 2f);
+        Destroy(gameObject);
     }
 }
