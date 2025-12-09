@@ -1,63 +1,112 @@
+using Unity.AI.Navigation;
 using UnityEngine;
 
 namespace procedural
 {
     public class MapGenerator : MonoBehaviour
     {
-        [Header("Configurações do Terreno")]
         public Terrain terrain;
-        public int width = 256; 
-        public int height = 256;
-        public int depth = 6;
-
-        [Header("Ruído Perlin")]
-        public float scale = 9f; 
-        public float offsetX = 100f; 
-        public float offsetY = 100f;
-    
-        [Header("Seed")]
-        public bool usarSeed = true;
-        public int seed;
+        public ParamProceduralConfig config; 
+        public NavMeshSurface navMeshSurface;
 
         private void Start()
         {
-            if(terrain == null) terrain = GetComponent<Terrain>();
+            if (terrain == null) terrain = GetComponent<Terrain>();
+            if (config == null) { Debug.LogError("Falta a Config no MapGenerator!"); return; }
+
             GenerateTerrain();
+            PintarTerreno();
+            PintarGrama();
+            if (navMeshSurface == null) return;
+            terrain.terrainData.SyncHeightmap(); 
+            navMeshSurface.BuildNavMesh();
         }
 
         private void GenerateTerrain()
         {
-            if (usarSeed)
+            var data = terrain.terrainData;
+            data.heightmapResolution = config.width + 1;
+            data.size = new Vector3(config.width, config.depth, config.height);
+
+            var heights = new float[config.width, config.height];
+
+            for (var x = 0; x < config.width; x++)
             {
-                var prng = new System.Random(seed);
-                offsetX = prng.Next(-100000, 100000); 
-                offsetY = prng.Next(-100000, 100000);
-            }
-
-            terrain.terrainData = GenerateTerrainData(terrain.terrainData);
-        }
-
-        private TerrainData GenerateTerrainData(TerrainData terrainData)
-        {
-            terrainData.heightmapResolution = width + 1;
-            terrainData.size = new Vector3(width, depth, height);
-            terrainData.SetHeights(0, 0, GenerateHeights());
-            return terrainData;
-        }
-
-        private float[,] GenerateHeights()
-        {
-            var heights = new float[width, height];
-            for (var x = 0; x < width; x++)
-            {
-                for (var y = 0; y < height; y++)
+                for (var y = 0; y < config.height; y++)
                 {
-                    var xCoord = (float)x / width * scale + offsetX;
-                    var yCoord = (float)y / height * scale + offsetY;
-                    heights[x, y] = Mathf.PerlinNoise(xCoord, yCoord);
+                    heights[x, y] = config.GetNoiseValue(x, y, config.terrainScale, 0, config.width, config.height);
                 }
             }
-            return heights;
+        
+            data.SetHeights(0, 0, heights);
         }
+
+        private void PintarTerreno()
+        {
+            var data = terrain.terrainData;
+            var mapX = data.alphamapWidth;
+            var mapY = data.alphamapHeight;
+            var splatmapData = new float[mapX, mapY, 3];
+
+            for (var y = 0; y < mapY; y++)
+            {
+                for (var x = 0; x < mapX; x++)
+                {
+                    var normX = (float)x / (mapX - 1);
+                    var normY = (float)y / (mapY - 1);
+                    var worldX = normY * data.size.x;
+                    var worldZ = normX * data.size.z;
+                    var itemVal = config.GetNoiseValue(worldX, worldZ, config.itemNoiseScale, config.itemSeedOffset, data.size.x, data.size.z);
+                    var enemyVal = config.GetNoiseValue(worldX, worldZ, config.enemyNoiseScale, config.enemySeedOffset, data.size.x, data.size.z);
+                    var splat = new float[3];
+                    if (enemyVal > config.enemyThreshold) splat[2] = 1f;
+                    else if (itemVal > config.itemThreshold) splat[1] = 1f;
+                    else splat[0] = 1f;
+
+                    splatmapData[x, y, 0] = splat[0];
+                    splatmapData[x, y, 1] = splat[1];
+                    splatmapData[x, y, 2] = splat[2];
+                }
+            }
+            data.SetAlphamaps(0, 0, splatmapData);
+        }
+
+        private void PintarGrama()
+    {
+        var data = terrain.terrainData;
+        var detailWidth = data.detailWidth;
+        var detailHeight = data.detailHeight;
+        var map = new int[detailWidth, detailHeight];
+
+        for (var y = 0; y < detailHeight; y++)
+        {
+            for (var x = 0; x < detailWidth; x++)
+            {
+                var normX = (float)x / detailWidth;
+                var normY = (float)y / detailHeight;
+                var worldX = normY * data.size.x;
+                var worldZ = normX * data.size.z;
+                var enemyVal = config.GetNoiseValue(worldX, worldZ, config.enemyNoiseScale, config.enemySeedOffset, data.size.x, data.size.z);
+                var itemVal = config.GetNoiseValue(worldX, worldZ, config.itemNoiseScale, config.itemSeedOffset, data.size.x, data.size.z);
+                if (enemyVal > config.enemyThreshold || itemVal > config.itemThreshold)
+                {
+                    map[x, y] = 0;
+                }
+                else
+                {
+                    var grassNoise = Mathf.PerlinNoise(worldX * 0.1f, worldZ * 0.1f);
+                    if (grassNoise > config.grassThreshold)
+                    {
+                        map[x, y] = (int)(config.grassDensity * 10); 
+                    }
+                    else
+                    {
+                        map[x, y] = 0;
+                    }
+                }
+            }
+        }
+        data.SetDetailLayer(0, 0, 0, map);
+    }
     }
 }

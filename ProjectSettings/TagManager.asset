@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Alvo
   - Projetil
+  - Inimigo
   layers:
   - Default
   - TransparentFX
@@ -15,8 +16,8 @@ TagManager:
   - UI
   - armas
   - bbs
-  - 
-  - 
+  - Chao
+  - props
   - 
   - 
   - 

@@ -1,0 +1,486 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-paulorh" at "2025-12-09T01:38:29.7344741Z"
+Built from '6000.2/staging' branch; Version is '6000.2.13f1 (abdb44fca7f7) revision 11262788'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) 64bit Professional' Language: 'pt' Physical Memory: 31879 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+Date: 2025-12-09T01:38:29Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.2.13f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker13
+-projectPath
+D:/projects/unity/AirSoftGame
+-logFile
+Logs/AssetImportWorker13.log
+-srvPort
+62458
+-licensingIpc
+LicenseClient-paulorh
+-job-worker-count
+11
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: D:/projects/unity/AirSoftGame
+D:/projects/unity/AirSoftGame
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [35928]  Target information:
+
+Player connection [35928]  * "[IP] 192.168.0.7 [Port] 0 [Flags] 2 [Guid] 3355295083 [EditorId] 3355295083 [Version] 1048832 [Id] WindowsEditor(7,paulo-pc) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [35928]  * "[IP] 172.25.16.1 [Port] 0 [Flags] 2 [Guid] 3355295083 [EditorId] 3355295083 [Version] 1048832 [Id] WindowsEditor(7,paulo-pc) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [35928] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [35928] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 11
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 5.86 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.2.13f1 (abdb44fca7f7)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.2.13f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/projects/unity/AirSoftGame/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 5060 Ti (ID=0x2d04)
+    Vendor:   NVIDIA
+    VRAM:     16050 MB
+    Driver:   32.0.15.9144
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.2.13f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.2.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.2.13f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56068
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.17.4'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-paulorh"
+[Licensing::IpcConnector] LicenseClient-paulorh channel disconnected successfully.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-paulorh-6000.2.13" at "2025-12-09T01:38:30.485201Z"
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.13f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002732 seconds.
+- Loaded All Assemblies, in  0.326 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.304 seconds
+Domain Reload Profiling: 627ms
+	BeginReloadAssembly (110ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (43ms)
+	LoadAllAssembliesAndSetupDomain (133ms)
+		LoadAssemblies (106ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (130ms)
+			TypeCache.Refresh (129ms)
+				TypeCache.ScanAssembly (119ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (305ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (266ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (46ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (58ms)
+			ProcessInitializeOnLoadAttributes (117ms)
+			ProcessInitializeOnLoadMethodAttributes (41ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.4+4293ba1
+  Session Id:              26cf4bc733e549a38ef9fd51970fcfc0
+  Correlation Id:          d57634a6243b42849ea553fc18a7dac1
+  External correlation Id: 693670614966011257
+  Machine Id:              6sp8raTFMxvUwLzOQlZIojDac2U=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-paulorh-6000.2.13" (connect: 0.00s, validation: 0.00s, handshake: 0.69s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-paulorh-6000.2.13-notifications" at "2025-12-09T01:38:31.1836491Z"
+[Licensing::Module] Licensing Background thread has ended after 1.45s
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 4673188508070-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+- Loaded All Assemblies, in  0.749 seconds
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 1.73 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-AirSoftGame
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.711 seconds
+Domain Reload Profiling: 1457ms
+	BeginReloadAssembly (147ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (30ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (535ms)
+		LoadAssemblies (352ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (262ms)
+			TypeCache.Refresh (195ms)
+				TypeCache.ScanAssembly (181ms)
+			BuildScriptInfoCaches (54ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (711ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (551ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (116ms)
+			ProcessInitializeOnLoadAttributes (383ms)
+			ProcessInitializeOnLoadMethodAttributes (42ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 1.34 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 41 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 8016 unused Assets / (9.0 MB). Loaded Objects now: 8811.
+Memory consumption went from 169.3 MB to 160.2 MB.
+Total: 10.152200 ms (FindLiveObjects: 0.888200 ms CreateObjectMapping: 0.392100 ms MarkObjects: 5.258800 ms  DeleteObjects: 3.612500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1645.451019 seconds.
+  path: Assets/Mini Nature Pack/Scenery Textures/Tree_Branch_2_SPEC.tga
+  artifactKey: Guid(2611512551c7810478476760923dcfa8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Mini Nature Pack/Scenery Textures/Tree_Branch_2_SPEC.tga using Guid(2611512551c7810478476760923dcfa8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9bdb65a6240201ed329e5e0304e1cd4c') in 0.1606926 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Mini Nature Pack/Models/Bush5_Textures/diffuse.png
+  artifactKey: Guid(18460dd7d0f917748bdced18700be897) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Mini Nature Pack/Models/Bush5_Textures/diffuse.png using Guid(18460dd7d0f917748bdced18700be897) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9bcccd448696ae69785884d38558dd2f') in 0.0099264 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Mini Nature Pack/Models/Bush2_Textures/diffuse.png
+  artifactKey: Guid(e6920f4dc7505ac45905fa40bff5260d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Mini Nature Pack/Models/Bush2_Textures/diffuse.png using Guid(e6920f4dc7505ac45905fa40bff5260d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '14e9a921f37f44f2dee905b449adcbbe') in 0.0090107 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Mini Nature Pack/Models/Bush1_Textures/translucency_gloss.png
+  artifactKey: Guid(602e7f1986bead743a589db9a6ec1184) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Mini Nature Pack/Models/Bush1_Textures/translucency_gloss.png using Guid(602e7f1986bead743a589db9a6ec1184) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd147b53d5a2394fa199da26cb0c0707d') in 0.0064641 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Mini Nature Pack/Models/Bush1_Textures
+  artifactKey: Guid(894c0a78da6572e448b07eeced96b163) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Mini Nature Pack/Models/Bush1_Textures using Guid(894c0a78da6572e448b07eeced96b163) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd4691e41f611dcc0475c0c823f467a4a') in 0.0022822 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.346682 seconds.
+  path: Assets/Mini Nature Pack/Models/Tree 3_Textures/translucency_gloss.png
+  artifactKey: Guid(1ce976e84b061964799caf49f45e2c88) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Mini Nature Pack/Models/Tree 3_Textures/translucency_gloss.png using Guid(1ce976e84b061964799caf49f45e2c88) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f9facb5bcf8028f0c7a11fdf07209aa0') in 0.0070395 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Mini Nature Pack/Models/Tree 3_Textures/normal_specular.png
+  artifactKey: Guid(ecb2d6ec2065cc744a0cf435cc3b7f39) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Mini Nature Pack/Models/Tree 3_Textures/normal_specular.png using Guid(ecb2d6ec2065cc744a0cf435cc3b7f39) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1ec3e179073f4d8149e9b56a160b6aa8') in 0.0068194 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.422853 seconds.
+  path: Assets/Mini Nature Pack/Models/Tree 6_Textures/diffuse.png
+  artifactKey: Guid(25c9706a11bf6224e9c7a430b3a3b067) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Mini Nature Pack/Models/Tree 6_Textures/diffuse.png using Guid(25c9706a11bf6224e9c7a430b3a3b067) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '08776a04b3914a4b2f413e679a9c7c41') in 0.0061023 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_FD_Cliff_23d3aba195e4d26ee.terrainlayer
+  artifactKey: Guid(62c23733ee83e7a459a75b98064a62e8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_TerrainAutoUpgrade/layer_FD_Cliff_23d3aba195e4d26ee.terrainlayer using Guid(62c23733ee83e7a459a75b98064a62e8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '80b1e59ddd0dc3aac20933fb399bfa46') in 0.0320372 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.401527 seconds.
+  path: Assets/Mini Nature Pack/Models/Bush5_Textures/translucency_gloss.png
+  artifactKey: Guid(660b76884c782e1439bc552532189297) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Mini Nature Pack/Models/Bush5_Textures/translucency_gloss.png using Guid(660b76884c782e1439bc552532189297) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '39e49be37c549a13bd2d71ea330581c4') in 0.0125362 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Mini Nature Pack/Scenery Textures/Tree_Bark_01.psd
+  artifactKey: Guid(29601c04fea1d5f40a10e92824cfde0e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Mini Nature Pack/Scenery Textures/Tree_Bark_01.psd using Guid(29601c04fea1d5f40a10e92824cfde0e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f4ec726c554c0858667c4ea65029ca62') in 0.0058837 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.418692 seconds.
+  path: Assets/Mini Nature Pack/Documentation
+  artifactKey: Guid(c65fcb6c02abe2a41ba12ab15a4ffc11) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Mini Nature Pack/Documentation using Guid(c65fcb6c02abe2a41ba12ab15a4ffc11) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '96711772f25d4c76aec8ad2e6d3e34b2') in 0.0026195 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Mini Nature Pack/Textures/FD_Gravel_NM_1.bmp
+  artifactKey: Guid(d7a17ab82d8468645a3e49f252dc919b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Mini Nature Pack/Textures/FD_Gravel_NM_1.bmp using Guid(d7a17ab82d8468645a3e49f252dc919b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e6b6d627e9054ff8b6922242e368a0aa') in 0.0109933 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Mini Nature Pack/Models/Bush4_Textures/translucency_gloss.png
+  artifactKey: Guid(4f50637f8b170094387436a6ddc8f83b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Mini Nature Pack/Models/Bush4_Textures/translucency_gloss.png using Guid(4f50637f8b170094387436a6ddc8f83b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cd55ed4f56ba1e8feb04f7b9d1fcace5') in 0.0065752 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.399852 seconds.
+  path: Assets/Mini Nature Pack/Models/Tree 9_Textures
+  artifactKey: Guid(7066f498d77e3da44b78ba9093ccefbb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Mini Nature Pack/Models/Tree 9_Textures using Guid(7066f498d77e3da44b78ba9093ccefbb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'af72673309d8d0a3cb6d442c64934c85') in 0.002676 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Mini Nature Pack/Models/Tree 3_Textures/shadow.png
+  artifactKey: Guid(5799cd9e4f6db9c4c93ce32039d6f5a8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Mini Nature Pack/Models/Tree 3_Textures/shadow.png using Guid(5799cd9e4f6db9c4c93ce32039d6f5a8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b62e72568b999a134c55d37109f7837c') in 0.0057422 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.428568 seconds.
+  path: Assets/Mini Nature Pack/Scenery Textures/Tree_Bark_02_NORM.tga
+  artifactKey: Guid(0c3a1f104b4059a4682c70acccdca540) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Mini Nature Pack/Scenery Textures/Tree_Bark_02_NORM.tga using Guid(0c3a1f104b4059a4682c70acccdca540) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '795acb5f71d1b3ed2d7edbadbdae217e') in 0.009115 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Mini Nature Pack/Scenery Textures/Tree_Branch_4_SHADOW.psd
+  artifactKey: Guid(2dfd552ff7ffdd04a96b1a377fff78b3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Mini Nature Pack/Scenery Textures/Tree_Branch_4_SHADOW.psd using Guid(2dfd552ff7ffdd04a96b1a377fff78b3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f67577bfb24ec486ec43f8715ce34e63') in 0.0061502 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.419191 seconds.
+  path: Assets/Mini Nature Pack/Scenery Textures/Tree_Bark_01_NORM.tga
+  artifactKey: Guid(8ef773dafbb58434193322043b03d6d1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Mini Nature Pack/Scenery Textures/Tree_Bark_01_NORM.tga using Guid(8ef773dafbb58434193322043b03d6d1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bef5ed4dcb55cfc9087d1c7debb02794') in 0.0070104 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Mini Nature Pack/Models/Bush5_Textures/normal_specular.png
+  artifactKey: Guid(c6a3afe4f61dcce439e1d63adc3a2955) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Mini Nature Pack/Models/Bush5_Textures/normal_specular.png using Guid(c6a3afe4f61dcce439e1d63adc3a2955) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e36aa963013a131c18b39f74ee08403a') in 0.0070947 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.417032 seconds.
+  path: Assets/Mini Nature Pack/Models/Bush3_Textures/normal_specular.png
+  artifactKey: Guid(b5450908bd085484eb7114221e07d9a4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Mini Nature Pack/Models/Bush3_Textures/normal_specular.png using Guid(b5450908bd085484eb7114221e07d9a4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bc7cf1e4c1e1be886850ce872e76cdb3') in 0.0070721 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Mini Nature Pack/Scenery Textures/Tree_Branch_4_SPEC.tga
+  artifactKey: Guid(f09fb8fe6a0a47a4fa314ffe3eb2b8af) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Mini Nature Pack/Scenery Textures/Tree_Branch_4_SPEC.tga using Guid(f09fb8fe6a0a47a4fa314ffe3eb2b8af) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd02449fd5cebbe11f1b62d05e5cc30f1') in 0.0080347 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.418247 seconds.
+  path: Assets/Mini Nature Pack/Models/Tree 10_Textures/normal_specular.png
+  artifactKey: Guid(9e4c346f5e1320a40b29565c3c900fad) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Mini Nature Pack/Models/Tree 10_Textures/normal_specular.png using Guid(9e4c346f5e1320a40b29565c3c900fad) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '723e3ab86c894f2be4f916190bf8bd10') in 0.0068054 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Mini Nature Pack/Models/Tree 9_Textures/normal_specular.png
+  artifactKey: Guid(4dcd5f67accfeaa4294ccc3f118faf72) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Mini Nature Pack/Models/Tree 9_Textures/normal_specular.png using Guid(4dcd5f67accfeaa4294ccc3f118faf72) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c3d1a9480c37c0a3df4be7bfe61f814d') in 0.0065541 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.452185 seconds.
+  path: Assets/Mini Nature Pack/Scenery Textures/Tree_Branch_3_NORM.tga
+  artifactKey: Guid(6ac7e9a44eb34114094fa0f3f0e975cd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Mini Nature Pack/Scenery Textures/Tree_Branch_3_NORM.tga using Guid(6ac7e9a44eb34114094fa0f3f0e975cd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '142ff89fa8eaf8b46313923c16770975') in 0.0064096 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Mini Nature Pack/Models/Bush2_Textures
+  artifactKey: Guid(737aee5d90770f640bf303ff27d2607e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Mini Nature Pack/Models/Bush2_Textures using Guid(737aee5d90770f640bf303ff27d2607e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'acd1a2fe2b15993f50502a8df5858d14') in 0.0028461 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.427384 seconds.
+  path: Assets/Mini Nature Pack/Textures/FD_Cliff_2.bmp
+  artifactKey: Guid(43f1948586b3e8c45b44fbb39670c9ac) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Mini Nature Pack/Textures/FD_Cliff_2.bmp using Guid(43f1948586b3e8c45b44fbb39670c9ac) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '32235df06f81877e56fe6ae6f49a3599') in 0.0110648 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Mini Nature Pack/Scenery Textures/Tree_Branch_3_SPEC.tga
+  artifactKey: Guid(849f682752073994d9cb8b18e76b8ed3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Mini Nature Pack/Scenery Textures/Tree_Branch_3_SPEC.tga using Guid(849f682752073994d9cb8b18e76b8ed3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '46fae1f68df815a097ce1265d0509a65') in 0.0071099 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.412177 seconds.
+  path: Assets/Mini Nature Pack/Documentation/MNP documentation.pdf
+  artifactKey: Guid(b526bf9dd34c46d4da5c91b5d6ec1ed4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Mini Nature Pack/Documentation/MNP documentation.pdf using Guid(b526bf9dd34c46d4da5c91b5d6ec1ed4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8802e7f9ee043b2e6f6a449a907610e1') in 0.0031973 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Mini Nature Pack/Textures/FD_Gravel_1.bmp
+  artifactKey: Guid(77ec37f31a00e774fb24a62b5b2209d3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Mini Nature Pack/Textures/FD_Gravel_1.bmp using Guid(77ec37f31a00e774fb24a62b5b2209d3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3b3073d49d8c69c0dacdd3ef6827147f') in 0.0077846 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
