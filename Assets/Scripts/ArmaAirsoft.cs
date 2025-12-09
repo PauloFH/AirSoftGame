@@ -132,7 +132,7 @@ public class ArmaAirsoft : MonoBehaviour
         }
 
         GameObject bbObj = Instantiate(bbPrefab, bocaDoCano.position, bocaDoCano.rotation);
-        BB bb = bbObj.GetComponent<BB>();
+        Bb bb = bbObj.GetComponent<Bb>();
         
         bb.massa = carregadorAtual.massaBB;
         bb.backspinDrag = hopUpValue;

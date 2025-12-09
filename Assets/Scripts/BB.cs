@@ -1,7 +1,8 @@
 using System.Collections;
+using lifeStatus;
 using UnityEngine;
 
-public class BB : MonoBehaviour
+public class Bb : MonoBehaviour
 {
     [Header("Propriedades Físicas")]
     public float massa = 0.0002f;
@@ -13,7 +14,7 @@ public class BB : MonoBehaviour
     private Rigidbody rb;
     private float dragCoefficient = 0.47f;
     private float airDensity = 1.225f;
-    
+    public bool eTiroDoInimigo = false;
     void Start()
     {
         rb = GetComponent<Rigidbody>();
@@ -74,6 +75,24 @@ public class BB : MonoBehaviour
     
     void OnCollisionEnter(Collision collision)
     {
-        Destroy(gameObject);
+        if (collision.gameObject.CompareTag("Inimigo") && !eTiroDoInimigo)
+        {
+            var inimigo = collision.gameObject.GetComponent<InimigoStatus>();
+            if (!inimigo) inimigo.ReceberDano(1f);
+            Destroy(gameObject);
+        }
+        else if (collision.gameObject.CompareTag("Player") && eTiroDoInimigo)
+        {
+            var player = collision.gameObject.GetComponent<PlayerStatus>();
+            if (player == null) player = collision.gameObject.GetComponentInParent<PlayerStatus>();
+            
+            if (player != null) player.ReceberDano(1f);
+            Destroy(gameObject);
+        }
+        else
+        {
+            // Bateu no chão ou parede
+            Destroy(gameObject);
+        }
     }
 }
