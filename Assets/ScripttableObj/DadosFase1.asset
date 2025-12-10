@@ -12,21 +12,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d67a010bcb221904e90950e5696747b6, type: 3}
   m_Name: DadosFase1
   m_EditorClassIdentifier: Assembly-CSharp::procedural.ParamProceduralConfig
-  seed: 326
+  seed: 0
   usarSeedFixa: 0
   width: 256
   height: 256
   depth: 6
-  terrainScale: 9
+  terrainScale: 12.84
   terrainOffset: {x: 147, y: 122.5}
   itemNoiseScale: 5.13
   itemThreshold: 0.758
   itemSeedOffset: 100
   enemyNoiseScale: 5.26
-  enemyThreshold: 0.702
+  enemyThreshold: 0.827
   enemySeedOffset: 1000
   natureScale: 15
   natureOffset: 300
-  natureThreshold: 0.45
+  natureThreshold: 0.539
   grassDensity: 60
   grassThreshold: 0.386
