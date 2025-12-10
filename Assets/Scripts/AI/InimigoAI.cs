@@ -1,3 +1,4 @@
+using gun;
 using UnityEngine;
 using UnityEngine.AI;
 
@@ -21,11 +22,13 @@ namespace AI
         public float energiaDisparo = 1.49f;
         public float massaBb = 0.0002f; 
         private NavMeshAgent _agent;
-        private bool _playerNaMira = false;
+        private Collider _meuCollider; 
 
         private void Start()
         {
             _agent = GetComponent<NavMeshAgent>();
+            _meuCollider = GetComponent<Collider>();
+
             if (player != null) return;
             var p = GameObject.FindGameObjectWithTag("Player");
             if (p != null) player = p.transform;
@@ -34,6 +37,7 @@ namespace AI
         private void Update()
         {
             if (!player) return;
+            if (!_agent.isOnNavMesh || !_agent.isActiveAndEnabled) return;
             var distancia = Vector3.Distance(transform.position, player.position);
             if (!(distancia <= distanciaDeteccao)) return;
             if (distancia > distanciaAtaque)
@@ -58,15 +62,23 @@ namespace AI
             var lookRotation = Quaternion.LookRotation(new Vector3(direcao.x, 0, direcao.z));
             transform.rotation = Quaternion.Slerp(transform.rotation, lookRotation, Time.deltaTime * 5f);
         }
+
         private void Atirar()
         {
             if (!bbPrefab || !bocaDoCano) return;
+            
             var bbObj = Instantiate(bbPrefab, bocaDoCano.position, bocaDoCano.rotation);
             var bbScript = bbObj.GetComponent<Bb>();
+            
             if (bbScript)
             {
                 bbScript.massa = massaBb;
                 bbScript.eTiroDoInimigo = true;
+            }
+            var colisorBala = bbObj.GetComponent<Collider>();
+            if (colisorBala != null && _meuCollider != null)
+            {
+                Physics.IgnoreCollision(colisorBala, _meuCollider);
             }
             
             var velocidadeInicial = Mathf.Sqrt(2f * energiaDisparo / massaBb);

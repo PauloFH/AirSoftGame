@@ -7,6 +7,10 @@ TagManager:
   - Alvo
   - Projetil
   - Inimigo
+  - Weapon
+  - SecondCamera
+  - BulletSpawn
+  - Arma
   layers:
   - Default
   - TransparentFX

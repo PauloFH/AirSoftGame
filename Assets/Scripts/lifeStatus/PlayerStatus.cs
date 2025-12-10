@@ -1,6 +1,4 @@
 using UnityEngine;
-using UnityEngine.SceneManagement;
-
 
 namespace lifeStatus
 {
@@ -17,11 +15,16 @@ namespace lifeStatus
         public void ReceberDano(float dano)
         {
             vidaAtual -= dano;
-            Debug.Log($"PLAYER ATINGIDO! Vida restante: {vidaAtual}");
+            Debug.Log($"Vida do Player: {vidaAtual}");
 
-            if (vidaAtual <= 0)
+            if (!(vidaAtual <= 0)) return;
+            if (GameController.instance != null)
             {
-                SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+                GameController.instance.PlayerMorreu();
+            }
+            else
+            {
+                UnityEngine.SceneManagement.SceneManager.LoadScene("GameOver");
             }
         }
     }

@@ -1668,7 +1668,7 @@ MonoBehaviour:
   bbPrefab: {fileID: 638067826126034433, guid: d822cf7e505e2e5438b4f4aa664443d6, type: 3}
   bocaDoCano: {fileID: 7773645749327143305}
   energiaDisparo: 1.49
-  massaBB: 0.0002
+  massaBb: 0.0002
 --- !u!1 &5187426355740656225
 GameObject:
   m_ObjectHideFlags: 0

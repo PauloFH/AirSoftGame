@@ -28,6 +28,8 @@ namespace procedural
 
         private void Spawnar()
         {
+            var totalSpawnados = 0;
+            
             if (config == null || terrain == null) return;
         
             foreach (Transform child in transform) Destroy(child.gameObject);
@@ -102,6 +104,10 @@ namespace procedural
                     var prefab = prefabs[Random.Range(0, prefabs.Length)];
                     var pai = (containerOrganizador != null) ? containerOrganizador : transform;
                     var obj = Instantiate(prefab, posicaoFinal, Quaternion.identity, pai);
+                    if (tipoDeSpawn == TipoSpawn.Inimigos)
+                    {
+                        totalSpawnados++;
+                    }
                     if (randomizarRotacao) 
                         obj.transform.rotation = Quaternion.Euler(0, Random.Range(0, 360), 0);
                     
@@ -113,6 +119,10 @@ namespace procedural
                     
                     spawnsCount++;
                 }
+            }
+            if (tipoDeSpawn == TipoSpawn.Inimigos && GameController.instance != null)
+            {
+                GameController.instance.RegistrarTotalInimigos(totalSpawnados);
             }
             Debug.Log($"[Spawner {tipoDeSpawn}] Gerou {spawnsCount} objetos com GridSize {gridSize}.");
         }

@@ -1,4 +1,5 @@
 using System.Collections;
+using gun;
 using UnityEngine;
 
 public class ArmaAirsoft : MonoBehaviour
